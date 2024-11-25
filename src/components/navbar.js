@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Agrivive</Link> {/* Brand navigation */}
+        <Link className="navbar-brand" to="/"><b>Agrivive</b></Link> {/* Brand navigation */}
         <button
           className="navbar-toggler"
           type="button"
@@ -19,22 +19,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link active" aria-current="page" to="/"><b>Home</b></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link text-dark" to="/about"><b>About Us</b></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contacts">Contacts</Link>
+              <Link className="nav-link text-dark" to="/contacts"><b>Contacts</b></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">Services</Link>
+              <Link className="nav-link text-dark" to="/services"><b>Services</b></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/careers">Careers</Link>
+              <Link className="nav-link text-dark" to="/careers"><b>Careers</b></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/shop">Shop</Link>
+              <Link className="nav-link text-dark" to="/shop"><b>Shop</b></Link>
             </li>
           </ul>
         </div>
