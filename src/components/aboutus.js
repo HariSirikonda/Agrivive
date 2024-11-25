@@ -9,20 +9,20 @@ function AboutUs() {
                     <div class="row mt-5">
                         <div class="col-md-8">
                             <div className="discription text-start mx-2 my-3 p-2">
-                                <h2 className="text-success">A Holistic Approach to Agricultural Empowerment</h2>
-                                <p className="mx-2">We believe in a holistic approach to agricultural development, addressing the multifaceted needs of farmers. Our dedicated team of experts works tirelessly to provide:</p>
+                                <h2 className="text-success p-2">About Agrivive ?</h2>
+                                <p className="mx-2">Agrivive is set to make use of unused farming lands in India. Our main motive is to empower the Agriculture production in our country. We a vide collection of eperts for land nutrition testing, Crop Analysis, Yield Estimation, Marketing Department and also ligal Department. </p>
                                 <ul>
                                     <li>
-                                        <p><b>Financial Support:</b> Access to capital is crucial for farmers to invest in their operations, purchase quality inputs, and adopt sustainable practices. We offer a range of financial solutions, including loans, grants, and insurance programs, tailored to the specific needs of each farmer.</p>
+                                        <p><b>Land nutrition Testing : </b>We perform nutrition test for the soil at your piece of Land. The soil Nutrition Experts come to place and performs the analysis infront of your presence and the reveals the reports then itself. The whole process goes very trasparent andd trusted way by the land owners. We have the best Soil nutrition analysts in our hands for deciding what crop to be started inorder to get the most satisfying results.</p>
                                     </li>
                                     <li>
-                                        <p><b>Economic Empowerment: </b> We empower farmers to maximize their income and improve their livelihoods. Through market linkages, value-addition initiatives, and capacity building programs, we help farmers access better markets, command fair prices, and enhance their economic resilience.</p>
+                                        <p><b>Crop Analyts : </b> After completing the nutrition test on the land, the crop analysts take the charge. They analyse the financial adn economical aspects of the land which will bring us the best results financially as well as Economically.</p>
                                     </li>
                                     <li>
-                                        <p><b>Social Inclusion:</b> We recognize the importance of social equity and inclusivity in agriculture. We work with marginalized communities, women farmers, and youth to provide them with the tools and resources they need to succeed. Our initiatives focus on empowering women, promoting gender equality, and fostering inclusive agricultural practices.</p>
+                                        <p><b>Marketing Agents : </b> We never let our customers to bother about the marketing work of the crop. we have the best marketing agents who deals with your crop. Our customer need not to worry about the present or future circumstances, obstacles for the marketing of the crop. Our marketing agents are taken into the company such that they deliver a satisfying feel to the customers at any cost.</p>
                                     </li>
                                     <li>
-                                        <p><b>Psychological Well-being:</b> Farming can be a demanding profession, both physically and emotionally. We prioritize the mental health of farmers by offering counseling services, stress management techniques, and community support programs. We believe that a healthy mind leads to a thriving farm.</p>
+                                        <p><b>Ligal Activity : </b> Your land will be under the Ligal department of our company untill term ends. There will be bononus and insentives for the customers who gives the nutrition rich land for the rented farm procedure. Our ligal team will be with you even after ending the term document. A customer is always a customer for us. You can come and meet our Ligal team for any suggestions related to the land purchase or selling.</p>
                                     </li>
                                 </ul>
                             </div>
