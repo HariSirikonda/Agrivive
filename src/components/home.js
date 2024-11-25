@@ -1,9 +1,9 @@
 function Home() {
     return (
         <>
-            <div>
-                <h2>This is the Home page</h2>
-            </div>
+            <section className="container-fluid m-3"> 
+                <h1>info section</h1>
+            </section>
         </>
     );
 }

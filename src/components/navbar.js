@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
-import Logo from './favicon.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <img src={Logo} alt='Show me'/>
         <Link className="navbar-brand" to="/">Agrivive</Link> {/* Brand navigation */}
         <button
           className="navbar-toggler"
