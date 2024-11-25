@@ -5,7 +5,7 @@ function AboutUs() {
                 <div class="container">
                     <h1 class="display-4 text-center text-success">About Us</h1>
                     <p class="lead text-center">Empowering Farmers, Nurturing India's Future</p>
-
+                    <hr/>
                     <div class="row mt-5">
                         <div class="col-md-8">
                             <div className="discription text-start mx-2 my-3 p-2">
