@@ -1,3 +1,8 @@
+import Img1 from './images/field-5430070_1280.jpg';
+import Img2 from './images/filtering.png';
+import Img3 from './images/planting.png';
+import Img4 from './images/Pluging.png';
+
 function Home() {
     return (
         <>
