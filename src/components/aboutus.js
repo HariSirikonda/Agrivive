@@ -51,15 +51,15 @@ function AboutUs() {
                         </div>
                         <div class="col-md-4 p-3 bg-success text-light align-items-centers ">
                             <h1>Our Vision</h1>
-                            <p className="lead">To be the leading force in Indian agriculture, revolutionizing farming practices and ensuring food security for generations to come. We envision a future where farmers are empowered, agriculture is sustainable, and rural India flourishes.</p>
+                            <p>To be the leading force in Indian agriculture, revolutionizing farming practices and ensuring food security for generations to come. We envision a future where farmers are empowered, agriculture is sustainable, and rural India flourishes.</p>
                             <h1>Our Mission</h1>
-                            <p className="lead">To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.<br />By fostering sustainable practices and empowering rural communities, we contribute to a greener and more prosperous India.</p>
+                            <p>To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.<br />By fostering sustainable practices and empowering rural communities, we contribute to a greener and more prosperous India.</p>
                             <div className="text-start">
                                 <h1 className="m-3 text-center">Contact Us </h1>
                                 <hr />
-                                <p className="lead"><b>Phone numebr : </b>+91 99******123</p>
-                                <p className="lead"><b>Email :</b> farmsupport@gmail.com</p>
-                                <p className="lead"><b>Address : </b> H.no - 1-2-235,Hanuman line, Maisammaguda, medchal dist, Hyderabad, Talangana, India</p>
+                                <p><b>Phone numebr : </b>+91 99******123</p>
+                                <p><b>Email :</b> farmsupport@gmail.com</p>
+                                <p><b>Address : </b> H.no - 1-2-235,Hanuman line, Maisammaguda, medchal dist, Hyderabad, Talangana, India</p>
                             </div>
                             <div>
                                 <a className="m-2 text-light" href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
