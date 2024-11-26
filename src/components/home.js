@@ -2,6 +2,10 @@ import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
 import Img3 from './images/planting.png';
 import Img4 from './images/Pluging.png';
+import Loans from './images/loans.png';
+import Marketing from './images/Marketing.png';
+import Ligal from './images/ligal.png';
+import Testing from './images/testing.png';
 
 function Home() {
     const myStyle = {
