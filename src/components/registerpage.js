@@ -6,11 +6,6 @@ import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
 
 function Register() {
-    const navigate = useNavigate();
-
-    const handleForgotPassword = () => {
-        navigate('/forgotPassword');
-    };
 
     return (
         <>
@@ -34,7 +29,7 @@ function Register() {
                                 <label for="floatingPassword">Password</label>
                             </div>
                             <div className="mt-2 text-end">
-                                <Link href="#" className="text-secondary text-decoration-none fw-bold" onClick={handleForgotPassword}>Forget Password</Link>
+                                <Link className="text-secondary text-decoration-none fw-bold" to="/register/forgotPassword">Forget Password</Link>
                             </div>
                             <button id="ContinueButton" type="submit" className="submit_btn btn btn-success w-100 my-4 p-2">Continue</button>
                             <div className="text-center text-uppercase text-muted mb-3">or</div>

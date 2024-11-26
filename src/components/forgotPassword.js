@@ -1,7 +1,9 @@
 function ForgotPassword(){
     return (
         <>
-            <div>This is the forgot password Page</div>
+            <div>
+                <h1>This is the forgot password Page</h1>
+            </div>
         </>
     );
 }
