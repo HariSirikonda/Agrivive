@@ -5,7 +5,7 @@ import Img4 from './images/Pluging.png';
 
 function Home() {
     const myStyle = {
-        backgroundImage : `url(${Img1})`,backgroundSize : 'cover', backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(${Img1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
     };
     return (
         <>
