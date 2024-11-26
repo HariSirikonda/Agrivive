@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
 import Img3 from './images/planting.png';
@@ -13,6 +14,13 @@ function Home() {
     const myStyle = {
         backgroundImage: `url(${Img1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
     };
+
+    const navigate = useNavigate();
+
+    const handleRegisterClick = () => {
+        navigate("/register");
+    };
+
     return (
         <>
             {/* Intro section */}
@@ -24,7 +32,7 @@ function Home() {
                             <h1 className='text-success'>Empowering farmers and Nuturing India's Future</h1>
                             <p>Looking for an oppurtunity to make use of your unused lands ? You have come to the right place... We are here to help you earn a considerable income from your land. handover your land for a considerable income monthly on time. Who knows ? your financial freedon might start over here with us. Your liabilities turns Assets. What are you waiting for ? Sign up fast and start your journey towards financial freedom.</p>
                             <p className='lead text-success'><b>100%</b> satisfied <b>Yeild Returns</b></p>
-                            <button className='btn btn-success m-2' type='submit'>Register</button>
+                            <button className='btn btn-success m-2' type='submit' onClick={handleRegisterClick} >Register</button>
                             <button className='btn btn-light m-2' type='submit'>Login</button>
                             <div className='newsletter bg-light d-flex m-3 p-3 align-items-center justify-content-center'>
                                 <h4 className='w-50'>Subscribe for our news letter</h4>

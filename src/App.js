@@ -7,6 +7,7 @@ import Contacts from './components/contacts';
 import Services from './components/services';
 import Careers from './components/careers';
 import Shop from './components/shop';
+import Register from './components/registerpage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
     </BrowserRouter>
