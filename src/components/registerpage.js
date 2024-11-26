@@ -20,6 +20,20 @@ function Register() {
                             <div className="fw-normal text-muted mb-2">
                                 New Here? <a href="#" className="text-success text-decoration-none fw-bold">Create an Account</a>
                             </div>
+                            <div className='d-flex align-items-center justify-content-center'>
+                                <div className="form-check mx-2 m-3">
+                                    <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
+                                        <label className="form-check-label" for="radio1">
+                                            Land Owner
+                                        </label>
+                                </div>
+                                <div className="form-check mx-2 m-3">
+                                    <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" checked />
+                                        <label className="form-check-label" for="radio1">
+                                            Tenent Registration
+                                        </label>
+                                </div>
+                            </div>
                             <div className="form-floating mb-2 ">
                                 <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
                                 <label for="floatingInput">Email address</label>
