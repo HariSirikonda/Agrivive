@@ -8,11 +8,14 @@ function Register() {
         <>
             <section className="wrapper mb-3">
                 <div className="container">
-                    <div className="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
-                        <div className="logo">
-                            <img className="img-fluid p-2" src={Logo} alt="Logo"/>
-                        </div>
-                        <form className="rounded bg-white shadow p-5">
+                    <div className='m-2 p-2'>
+                        <h2>Complete Your registration Process</h2>
+                    </div>
+                    <div className="col-sm-8 d-flex offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 align-items-center justify-content-center">
+                        <form className="rounded bg-white shadow p-5 m-2">
+                            <div className="logo">
+                                <img className="img-fluid p-2 w-25" src={Logo} alt="Logo"/>
+                            </div>
                             <h3 className="text-dark fw-bolder fs-4 mb-2">Sign into Agrivive</h3>
                             <div className="fw-normal text-muted mb-2">
                                 New Here? <a href="#" className="text-success text-decoration-none fw-bold">Create an Account</a>
@@ -30,16 +33,16 @@ function Register() {
                             </div>
                             <button id="ContinueButton" type="submit" className="submit_btn btn btn-success w-100 my-4" onclick="submitLogin()">Continue</button>
                             <div className="text-center text-uppercase text-muted mb-3">or</div>
-                            <a href="https://www.google.com/" target="_blank" className="btn btn-light login_with w-100 mb-3">
-                                <img src={GoogleIcon} className="img-fluid me-3"/>
+                            <a href="https://www.google.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
+                                <img src={GoogleIcon} className="img-fluid me-3 h-25"/>
                                     Continue with Google
                             </a>
-                            <a href="https://www.facebook.com/" target="_blank" className="btn btn-light login_with w-100 mb-3">
-                                <img src={FacebookIcon} className="img-fluid me-3"/>
+                            <a href="https://www.facebook.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
+                                <img src={FacebookIcon} className="img-fluid me-3 h-25"/>
                                     Continue with Facebook
                             </a>
-                            <a href="https://www.linkedin.com/" target="_blank" className="btn btn-light login_with w-100 mb-3">
-                                <img src={LinkedIcon} className="img-fluid me-3"/>
+                            <a href="https://www.linkedin.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
+                                <img src={LinkedIcon} className="img-fluid me-3 h-25"/>
                                     Continue with Linked
                             </a>
                         </form>
