@@ -36,7 +36,7 @@ function Home() {
                             <button className='btn btn-light m-2' type='submit' onClick={handleRegisterClick}>Login</button>
                             <div className='newsletter bg-light d-flex m-3 p-3 align-items-center justify-content-center'>
                                 <h4 className='w-50'>Subscribe for our news letter</h4>
-                                <input className='form-control m-2 w-50' placeholder='Enter your Email Id' id='Emailinput'></input>
+                                <input className='form-control m-2 w-50' placeholder='Enter your Email Id' id='Emailinput' type='email'></input>
                                 <button className='btn btn-success m-2 w-25' type='submit' >Submit</button>
                             </div>
                         </div>
@@ -49,9 +49,9 @@ function Home() {
             {/* Services section */}
             <section className='container-fluid bg-light'>
                 <h1 className='text-success'>Our Services</h1>
-                <p>Agrivive Offers you the all the support you need </p>
+                <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                 <div className='d-flex mx-5 mb-3'>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Loans} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Funding for the Crop</h5>
@@ -59,15 +59,15 @@ function Home() {
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Marketing} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Marketing Responsibility</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text">Our marketing agents reach you at your land for scaling and marketing purpsoe. </p>
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Testing} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Soil Testing</h5>
@@ -75,7 +75,7 @@ function Home() {
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Ligal} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Ligal Support</h5>
@@ -83,7 +83,7 @@ function Home() {
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Inspection} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Onsite Inspections</h5>
@@ -91,7 +91,7 @@ function Home() {
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
-                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Shop} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">You can purchase the Baby plants</h5>
