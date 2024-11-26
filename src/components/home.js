@@ -39,8 +39,9 @@ function Home() {
             </section>
             {/* Services section */}
             <section className='container-fluid bg-light'>
-                <h1 className='text-success mt-2 p-2'>Our Services</h1>
-                <div className='d-flex'>
+                <h1 className='text-success'>Our Services</h1>
+                <p>Agrivive Offers you the all the support you need </p>
+                <div className='d-flex mx-5'>
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
                         <img src={Loans} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
