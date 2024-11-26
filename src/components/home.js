@@ -36,6 +36,52 @@ function Home() {
                     </div>
                 </div>
             </section>
+            {/* Services section */}
+            <section className='container-fluid'>
+                <h1 className='text-dark'>Our Services</h1>
+                <div className='d-flex'>
+                    <div className="card w-25 m-2 p-2">
+                        <img src={Loans} className="card-img-top" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">Funding for the Crop</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Learn more</a>
+                            </div>
+                    </div>
+                    <div className="card w-25 m-2 p-2">
+                        <img src={Marketing} className="card-img-top" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">Marketing Responsibility</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Learn more</a>
+                            </div>
+                    </div>
+                    <div className="card w-25 m-2 p-2">
+                        <img src={Testing} className="card-img-top" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">Soil Testing</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Learn more</a>
+                            </div>
+                    </div>
+                    <div className="card w-25 m-2 p-2">
+                        <img src={Ligal} className="card-img-top" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">Ligal Support</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Learn more</a>
+                            </div>
+                    </div>
+                    <div className="card w-25 m-2 p-2">
+                        <img src={Loans} className="card-img-top" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">Onsite Inspections</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Learn more</a>
+                            </div>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }
