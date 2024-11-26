@@ -4,7 +4,7 @@ function AboutUs() {
             <section class="bg-light-green text-dark py-5">
                 <div class="container">
                     <h1 class="display-4 text-center text-success">About Us</h1>
-                    <p class="lead text-center"><b>Empowering Farmers, Nurturing India's Future</b></p>
+                    <p class="lead text-center">Empowering Farmers, Nurturing India's Future</p>
                     <hr/>
                     <div class="row mt-5">
                         <div class="col-md-8">
