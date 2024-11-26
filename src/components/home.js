@@ -7,6 +7,7 @@ import Marketing from './images/Marketing.png';
 import Ligal from './images/ligal.png';
 import Testing from './images/testing.png';
 import Inspection from './images/inspection.png';
+import Shop from './images/shop.png';
 
 function Home() {
     const myStyle = {
@@ -46,7 +47,7 @@ function Home() {
                         <img src={Loans} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Funding for the Crop</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text">Learn about the farm loans that might be right for you, check your eligibility, and get instructional help with the application forms.</p>
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
                     </div>
@@ -78,6 +79,14 @@ function Home() {
                         <img src={Inspection} className="card-img-top w-50" alt="Show me"></img>
                             <div className="card-body">
                                 <h5 className="card-title">Onsite Inspections</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-light">Learn more</a>
+                            </div>
+                    </div>
+                    <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center">
+                        <img src={Shop} className="card-img-top w-50" alt="Show me"></img>
+                            <div className="card-body">
+                                <h5 className="card-title">You can purchase the Baby plants</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" className="btn btn-light">Learn more</a>
                             </div>
