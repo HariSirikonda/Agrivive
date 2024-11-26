@@ -9,6 +9,7 @@ function Home() {
     };
     return (
         <>
+            {/* Intro section */}
             <section className='Intro container-fluid'>
                 <div className='row m-2 p-2'>
                     <div className='col-8 d-flex align-items-center justify-content-center  '>
