@@ -31,8 +31,8 @@ function Register() {
                             <div className="mt-2 text-end">
                                 <Link className="text-secondary text-decoration-none fw-bold" to="/register/forgotPassword">Forget Password</Link>
                             </div>
-                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-success w-100 my-4 p-2">Continue</button>
-                            <div className="text-center text-uppercase text-muted mb-3">or</div>
+                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue</button>
+                            <div className="text-center text-uppercase text-muted mb-3"><b>OR</b></div>
                             <div className='m-2 d-block'>
                                 <div className='d-block bg-light m-2'>
                                     <img className='me-2 p-1' src={GoogleIcon}></img>
