@@ -1,4 +1,5 @@
 import Logo from './favicon.png';
+import { Link } from 'react-router-dom';
 import GoogleIcon from './images/google-icon.svg';
 import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
@@ -7,44 +8,43 @@ function Register() {
     return (
         <>
             <section className="wrapper mb-3">
-                <div className="container">
-                    <div className='m-2 p-2'>
-                        <h2>Complete Your registration Process</h2>
-                    </div>
-                    <div className="col-sm-8 d-flex offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 align-items-center justify-content-center">
+                <div className="container mt-5">
+                    <div className="align-items-center justify-content-center w-50 m-auto">
                         <form className="rounded bg-white shadow p-5 m-2">
                             <div className="logo">
-                                <img className="img-fluid p-2 w-25" src={Logo} alt="Logo"/>
+                                <img className="img-fluid p-2 w-25" src={Logo} alt="Logo" />
                             </div>
                             <h3 className="text-dark fw-bolder fs-4 mb-2">Sign into Agrivive</h3>
                             <div className="fw-normal text-muted mb-2">
                                 New Here? <a href="#" className="text-success text-decoration-none fw-bold">Create an Account</a>
                             </div>
-                            <div className="form-floating mb-3">
-                                <input type="email" className="form-control" id="Username" placeholder="name@example.com"/>
-                                    <label for="floatingInput">Email address</label>
+                            <div className="form-floating mb-2 ">
+                                <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
+                                <label for="floatingInput">Email address</label>
                             </div>
-                            <div className="form-floating">
-                                <input type="password" className="form-control" id="Password" placeholder="Password"/>
-                                    <label for="floatingPassword">Password</label>
+                            <div className="form-floating ">
+                                <input type="password" className="form-control" id="Password" placeholder="Password" />
+                                <label for="floatingPassword">Password</label>
                             </div>
                             <div className="mt-2 text-end">
-                                <a href="#" className="text-secondary text-decoration-none fw-bold">Forget Password</a>
+                                <Link href="#" className="text-secondary text-decoration-none fw-bold">Forget Password</Link>
                             </div>
-                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-success w-100 my-4" onclick="submitLogin()">Continue</button>
+                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-success w-100 my-4 p-2">Continue</button>
                             <div className="text-center text-uppercase text-muted mb-3">or</div>
-                            <a href="https://www.google.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
-                                <img src={GoogleIcon} className="img-fluid me-3 h-25"/>
-                                    Continue with Google
-                            </a>
-                            <a href="https://www.facebook.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
-                                <img src={FacebookIcon} className="img-fluid me-3 h-25"/>
-                                    Continue with Facebook
-                            </a>
-                            <a href="https://www.linkedin.com/" target="_blank" className="btn d-inline-block btn-light login_with w-100 mb-3">
-                                <img src={LinkedIcon} className="img-fluid me-3 h-25"/>
-                                    Continue with Linked
-                            </a>
+                            <div className='m-2 d-block'>
+                                <div className='d-block bg-light m-2'>
+                                    <img className='me-2 p-1' src={GoogleIcon}></img>
+                                    <Link to={"https://www.google.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with google</Link>
+                                </div>
+                                <div className='d-block bg-light m-2'>
+                                    <img className='me-2 p-1' src={FacebookIcon}></img>
+                                    <Link to={"https://www.facebook.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with facebook</Link>
+                                </div>
+                                <div className='d-block bg-light m-2'>
+                                    <img className='me-2 p-1' src={LinkedIcon}></img>
+                                    <Link to={"https://www.linkedin.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with linkedin</Link>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -60,8 +60,8 @@ function Register() {
                         </p>
                         <p><u>Make sure you follow our social media pages</u></p>
                         <div className="social_icons text-center text-light p-3">
-                            <i className="fab fa-twitter p-1"></i> 
-                            <i className="fab fa-facebook p-1"></i> 
+                            <i className="fab fa-twitter p-1"></i>
+                            <i className="fab fa-facebook p-1"></i>
                             <i className="fab fa-instagram p-1"></i>
                             <i className="fab fa-linkedin p-1"></i>
                             <i className="fab fa-youtube p-1"></i>
