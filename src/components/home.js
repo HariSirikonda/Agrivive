@@ -117,6 +117,7 @@ function Home() {
             </section>
             <section className='container-fluid'>
                 <h1>Our partners</h1>
+                <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
                     <img className='img-fluid m-3' src={Partner1} style={{width: '256px',height: '76px'}}></img>
                     <img className='img-fluid m-3' src={Partner2} style={{width: '550px',height: '80px'}}></img>
