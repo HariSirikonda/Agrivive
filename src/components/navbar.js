@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import Profile from './images/profile.jpeg';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-center">
+      <div className="container-fluid w-75">
         <Link className="navbar-brand" to="/"><b>Agrivive</b></Link> {/* Brand navigation */}
         <button
           className="navbar-toggler"
@@ -38,6 +39,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div className='container align-items-center justify-content-end w-25'>
+        <button className='btn btn-success m-2' type='submit' >Register</button>
+        <button className='btn btn-light m-2 border' type='submit'>Login</button>
+        <img className='img-fluid rounded-circle' src={Profile} style={{width: '50px',height:'50px'}}></img>
       </div>
     </nav>
   );
