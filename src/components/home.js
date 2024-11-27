@@ -22,7 +22,7 @@ function Home() {
     const navigate = useNavigate();
     const handleRegisterClick = () => {
         navigate("/register");
-    }
+    };
 
     const handleLoginClick = () => {
         navigate("/login");
