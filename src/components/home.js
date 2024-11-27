@@ -13,6 +13,13 @@ import Shop from './images/shop.png';
 import Farmer from './images/indianhappyfarmer.jpg';
 import Profits from './images/farmerCash.jpg';
 import Footer from './footer';
+import Partner1 from './images/Partner1.png';
+import Partner2 from './images/partner2.png';
+import Partner3 from './images/partner3.jpeg';
+import Partner4 from './images/partner4.png';
+import Partner5 from './images/partner5.jpeg';
+import Partner6 from './images/partner6.jpeg';
+import Partner7 from './images/TCS.jpeg';
 
 function Home() {
     const myStyle = {
