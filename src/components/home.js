@@ -103,22 +103,9 @@ function Home() {
                     </div>
                 </div>
             </section>
-            {/* Benifits of Land Owners */}
-            <section className='text-dark p-5 p-lg-0 pt-lg-5 text-center'>
-                <div className="container">
-                    <div className="row align-items-center justify-content-between">
-                        <div className="col-md">
-                            <img src={Farmer} className="img-fluid w-50 m-1" alt="Show Me"/>
-                        </div>
-                        <div className="col-sm p-5">
-                            <h2>Learn the Fundamentals</h2>
-                            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sit quia nulla adipisci inventore doloremque, quo incidunt deleniti deserunt atque autem cupiditate earum fuga libero voluptates tempore reprehenderit. Incidunt, accusantium.</p>
-                            <a href="#" className="btn btn-light mt-3">
-                                <i className="bi bi-chevron-right"></i>Read more
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            {/* Frequntly asked Questions */}
+            <section className='container'>
+                
             </section>
         </>
     );
