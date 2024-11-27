@@ -115,6 +115,17 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <section className='container-fluid'>
+                <h1>Our partners</h1>
+                <div className='d-block'>
+                    <img className='img-fluid m-3' src={Partner1} style={{width: '256px',height: '76px'}}></img>
+                    <img className='img-fluid m-3' src={Partner2} style={{width: '550px',height: '80px'}}></img>
+                    <img className='img-fluid m-3' src={Partner3} style={{width: '332px',height: '201px'}}></img>
+                    <img className='img-fluid m-3' src={Partner4} style={{width: '100px',height: '100px'}}></img>
+                    <img className='img-fluid m-3' src={Partner5} style={{width: '100px',height: '100px'}}></img>
+                    <img className='img-fluid m-3' src={Partner6} style={{width: '100px',height: '100px'}}></img>
+                </div>
+            </section>
             {/* Footer */}
             <Footer/>
         </>
