@@ -40,3 +40,8 @@
 .lightgreen{
   background-color: lightseagreen;
 }
+
+::selection {
+  background-color: green; /* Background color of selected text */
+  color: white; /* Color of the selected text */
+}
