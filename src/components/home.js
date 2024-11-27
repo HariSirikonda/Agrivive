@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
 import Img3 from './images/planting.png';
@@ -142,24 +142,12 @@ function Home() {
                         </ul>
                     </div>
                     <div className='w-25 text-start'>
-                    <p><b>FIND US ON SOCIAL MEDIA</b></p>
-                        <ul>
-                            <li>
-                                <a className='lead text-decoration-none text-light'>Facebook</a>
-                            </li>
-                            <li>
-                                <a className='lead text-decoration-none text-light'>Instagram</a>
-                            </li>
-                            <li>
-                                <a className='lead text-decoration-none text-light'>Youtube</a>
-                            </li>
-                            <li>
-                                <a className='lead text-decoration-none text-light'>Twitter</a>
-                            </li>
-                            <li>
-                                <a className='lead text-decoration-none text-light'>Linkedin</a>
-                            </li>
-                        </ul>
+                        <p><b>FIND US ON SOCIAL MEDIA</b></p>
+                        <a className="m-2 text-light" href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a className="m-2 text-light" href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a className="m-2 text-light" href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a className="m-2 text-light" href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a className="m-2 text-light" href="https://youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
                     </div>
                     <div className='w-25 text-start'>
                         <h5>About Agrivive University</h5>
