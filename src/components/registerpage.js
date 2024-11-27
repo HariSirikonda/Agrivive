@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import GoogleIcon from './images/google-icon.svg';
 import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
+import Footer from './footer';
 
 function Register() {
 
@@ -62,26 +63,6 @@ function Register() {
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-            </section>
-            {/* Footer */}
-            <section className="bg-dark">
-                <div className="container">
-                    <div className="text-center text-light">
-                        <h1 className="py-5 mt-5 mb-3">This is the footer for the webpage</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis, eos dignissimos quasi necessitatibus corporis illum enim ullam odio saepe iure iusto ut temporibus voluptates tempore veniam hic cupiditate alias.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat voluptatem, voluptates neque commodi laudantium earum quisquam deleniti quo facilis! Repudiandae eum fuga velit, tempora esse nihil laudantium exercitationem molestias corporis.
-                        </p>
-                        <p><u>Make sure you follow our social media pages</u></p>
-                        <div className="social_icons text-center text-light p-3">
-                            <i className="fab fa-twitter p-1"></i>
-                            <i className="fab fa-facebook p-1"></i>
-                            <i className="fab fa-instagram p-1"></i>
-                            <i className="fab fa-linkedin p-1"></i>
-                            <i className="fab fa-youtube p-1"></i>
-                        </div>
                     </div>
                 </div>
             </section>
