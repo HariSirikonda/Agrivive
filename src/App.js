@@ -9,6 +9,7 @@ import Careers from './components/careers';
 import Shop from './components/shop';
 import Login from './components/login';
 import ForgotPassword from './components/forgotPassword';
+import Register from './components/register';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/login/forgotPassword" element={<ForgotPassword/> } />
         </Routes>
       </div>
