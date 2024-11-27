@@ -7,7 +7,7 @@ import Contacts from './components/contacts';
 import Services from './components/services';
 import Careers from './components/careers';
 import Shop from './components/shop';
-import Register from './components/registerpage';
+import Login from './components/login';
 import ForgotPassword from './components/forgotPassword';
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/register/forgotPassword" element={<ForgotPassword/> } />
+          <Route path="/login" element={<Login />} />
+          <Route path="/login/forgotPassword" element={<ForgotPassword/> } />
         </Routes>
       </div>
     </BrowserRouter>

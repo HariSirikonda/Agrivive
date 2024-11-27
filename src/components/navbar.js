@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Profile from './images/profile.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+
+    const handleLoginClick = () => {
+        navigate("/login");
+    };
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-center">
       <div className="container-fluid w-75">
@@ -42,8 +49,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='container align-items-center justify-content-end w-25'>
-        <button className='btn btn-success m-2' type='submit' >Register</button>
-        <button className='btn btn-light m-2 border' type='submit'>Login</button>
+        <button className='btn btn-success m-2' type='submit'>Register</button>
+        <button className='btn btn-light m-2 border' type='submit' onClick={handleLoginClick}>Login</button>
         <div class="btn-group m-0 p-0">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src={Profile} alt="Profile Picture" class="rounded-circle" style={{ width: '40px', height: '40px' }} />

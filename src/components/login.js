@@ -6,7 +6,7 @@ import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
 import Footer from './footer';
 
-function Register() {
+function Login() {
 
     return (
         <>
@@ -70,4 +70,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default Login;
