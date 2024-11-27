@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import Profile from './images/profile.jpeg';
 
 const Navbar = () => {
@@ -43,7 +44,11 @@ const Navbar = () => {
       <div className='container align-items-center justify-content-end w-25'>
         <button className='btn btn-success m-2' type='submit' >Register</button>
         <button className='btn btn-light m-2 border' type='submit'>Login</button>
-        <img className='img-fluid rounded-circle' src={Profile} style={{width: '50px',height:'50px'}}></img>
+        <div class="btn-group m-0 p-0">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src={Profile} alt="Profile Picture" class="rounded-circle" style={{ width: '40px', height: '40px' }} />
+          </button>
+        </div>
       </div>
     </nav>
   );
