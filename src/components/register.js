@@ -16,11 +16,8 @@ function Register() {
         <>
             <section className="wrapper mb-3">
                 <div className="container mt-5">
-                    <div className="align-items-center justify-content-center w-50 m-auto">
-                        <form className="rounded bg-white shadow p-5 m-2">
-                            <div className="logo">
-                                <img className="img-fluid p-2 w-25" src={Logo} alt="Logo" />
-                            </div>
+                    <div className="d-flex align-items-center justify-content-center w-50 m-auto">
+                        <form className="rounded bg-white shadow p-5 m-2" style={{ width: '500px' }}>
                             <h3 className="text-dark fw-bolder fs-4 mb-2">Sign Up to Agrivive</h3>
                             <div className='d-flex align-items-center justify-content-center'>
                                 <div className="form-check mx-2 m-3">
@@ -37,11 +34,11 @@ function Register() {
                                 </div>
                             </div>
                             <div className="form-floating mb-2 ">
-                                <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
+                                <input type="text" className="form-control" id="Username" placeholder="name@example.com" />
                                 <label for="floatingInput">First Name</label>
                             </div>
                             <div className="form-floating mb-2 ">
-                                <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
+                                <input type="text" className="form-control" id="Username" placeholder="name@example.com" />
                                 <label for="floatingInput">Last Name</label>
                             </div>
                             <div className="form-floating mb-2 ">
@@ -61,7 +58,7 @@ function Register() {
                                 <label for="floatingPassword">Confirm Password</label>
                             </div>
                             <div className="text-center w-100 mt-2 p-1">
-                                <input className="m-2" type="checkbox" value="TermsAccepted" checked={isChecked} onChange={handleCheckboxChange}/>
+                                <input className="m-2" type="checkbox" value="TermsAccepted" checked={isChecked} onChange={handleCheckboxChange} />
                                 <label className="mt-2 mb-2">Accept Terms and Conditions</label>
                             </div>
                             <button id="ContinueButton" type="submit" disabled={!isChecked} className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
