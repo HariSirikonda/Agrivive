@@ -3,9 +3,15 @@ import Logo from './favicon.png';
 import GoogleIcon from './images/google-icon.svg';
 import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
-import {useState} from 'react-router-dom';
+import { useState } from 'react';
 
-function Register(){
+function Register() {
+    const [isChecked, setIsChecked] = useState(false);
+
+    const handleCheckboxChange = (e) => {
+        setIsChecked(e.target.checked);
+    };
+
     return (
         <>
             <section className="wrapper mb-3">
@@ -19,15 +25,15 @@ function Register(){
                             <div className='d-flex align-items-center justify-content-center'>
                                 <div className="form-check mx-2 m-3">
                                     <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
-                                        <label className="form-check-label" for="radio1">
-                                            Land Owner Registration
-                                        </label>
+                                    <label className="form-check-label" for="radio1">
+                                        Land Owner Registration
+                                    </label>
                                 </div>
                                 <div className="form-check mx-2 m-3">
                                     <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" checked />
-                                        <label className="form-check-label" for="radio1">
-                                            Tenent Registration
-                                        </label>
+                                    <label className="form-check-label" for="radio1">
+                                        Tenent Registration
+                                    </label>
                                 </div>
                             </div>
                             <div className="form-floating mb-2 ">
@@ -55,10 +61,10 @@ function Register(){
                                 <label for="floatingPassword">Confirm Password</label>
                             </div>
                             <div className="text-center w-100 mt-2 p-1">
-                                <input className="m-2" type="checkbox" value="TermsAccepted"/>
+                                <input className="m-2" type="checkbox" value="TermsAccepted" checked={isChecked} onChange={handleCheckboxChange}/>
                                 <label className="mt-2 mb-2">Accept Terms and Conditions</label>
                             </div>
-                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
+                            <button id="ContinueButton" type="submit" disabled={!isChecked} className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
                         </form>
                     </div>
                 </div>
