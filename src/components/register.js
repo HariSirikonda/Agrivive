@@ -3,6 +3,7 @@ import Logo from './favicon.png';
 import GoogleIcon from './images/google-icon.svg';
 import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
+import {useState} from 'react-router-dom';
 
 function Register(){
     return (
@@ -52,6 +53,10 @@ function Register(){
                             <div className="form-floating ">
                                 <input type="password" className="form-control" id="Password" placeholder="Password" />
                                 <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <div className="text-center w-100 mt-2 p-1">
+                                <input className="m-2" type="checkbox" value="TermsAccepted"/>
+                                <label className="mt-2 mb-2">Accept Terms and Conditions</label>
                             </div>
                             <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
                         </form>
