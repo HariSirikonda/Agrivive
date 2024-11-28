@@ -20,6 +20,8 @@ import Partner4 from './images/partner4.png';
 import Partner5 from './images/partner5.jpeg';
 import Partner6 from './images/partner6.jpeg';
 import Partner7 from './images/TCS.jpeg';
+import Crops from './images/crops.jpg';
+import RiceCrops from './images/ricecrops.jpg';
 
 function Home() {
     const myStyle = {
@@ -38,7 +40,7 @@ function Home() {
     return (
         <>
             {/* Intro section */}
-            <section className='Intro container-fluid'>
+            <section className='Intro container-fluid p-5'>
                 <div className='row m-2 p-2'>
                     <div className='col-8 d-flex align-items-center justify-content-center  '>
                         <div className='squareContainer p-5'>
@@ -61,7 +63,7 @@ function Home() {
                 </div>
             </section>
             {/* Services section */}
-            <section className='container-fluid bg-light'>
+            <section className='container-fluid bg-light p-5'>
                 <h1 className='text-success'>Our Services</h1>
                 <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                 <div className='d-flex mx-5 mb-3'>
@@ -115,7 +117,26 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className='container-fluid'>
+            {/* Our Motive Section*/}
+            <section className='container-fluid light-green d-flex p-5'>
+                <div className='container-fluid w-50 d-flex align-items-center justify-content-center'>
+                    <div>
+                        <h1 className='text-success'>Our Motive</h1>
+                        <p>We started Agrivive with a strong motive to bring young youth into farming. Generally, people who were farmers throughout their life are making their children to study and do a decent IT job Nowadays. They usually hold a decent amount of land as they have farming history. Usually, what will happen, their children after growing up choces the IT job as their career. Now, the land they have since their fore fathers has now became Parmanently kept cropless. If Everyone is Doing so, who produces the food in India ?</p>
+                        <p><b>We have Decided to make those cropless lands to be filled with crops. Which in return gives us Food, Source of Money and Soil health.</b></p>
+                    </div>
+                </div>
+                <div className='w-25 p-2'>
+                    <h5>From This</h5>
+                    <img className='img-fluid' src={Crops} alt='show me'></img>
+                </div>
+                <div className='w-25 p-2'>
+                    <h5>To This</h5>
+                    <img className='img-fluid' src={RiceCrops} alt='show me'></img>
+                </div>
+            </section>
+            {/* Our Partners Section */}
+            <section className='container-fluid bg-light p-5'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
@@ -124,7 +145,6 @@ function Home() {
                     <img className='img-fluid m-3' src={Partner3} style={{width: '332px',height: '201px'}}></img>
                     <img className='img-fluid m-3' src={Partner4} style={{width: '100px',height: '100px'}}></img>
                     <img className='img-fluid m-3' src={Partner5} style={{width: '100px',height: '100px'}}></img>
-                    <img className='img-fluid m-3' src={Partner6} style={{width: '100px',height: '100px'}}></img>
                 </div>
             </section>
             {/* Footer */}
