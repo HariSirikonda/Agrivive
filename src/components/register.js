@@ -19,7 +19,7 @@ function Register(){
                                 <div className="form-check mx-2 m-3">
                                     <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
                                         <label className="form-check-label" for="radio1">
-                                            Land Owner
+                                            Land Owner Registration
                                         </label>
                                 </div>
                                 <div className="form-check mx-2 m-3">
@@ -53,7 +53,7 @@ function Register(){
                                 <input type="password" className="form-control" id="Password" placeholder="Password" />
                                 <label for="floatingPassword">Confirm Password</label>
                             </div>
-                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Create an Account</button>
+                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
                         </form>
                     </div>
                 </div>
