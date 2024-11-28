@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Profile from './images/profile.jpeg';
 import { useNavigate } from 'react-router-dom';
 import DropDownProfile from './dropdownprofile';
-import Settings from './images/settingsIcon.jpeg';
 
 const Navbar = () => {
 
@@ -60,7 +59,7 @@ const Navbar = () => {
         <div class="btn-group m-0 p-0">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src={Profile} alt="Profile Picture" class="rounded-circle" style={{ width: '40px', height: '40px' }} />
-            <DropDownProfile/>
+            {/* <DropDownProfile/> */}
           </button>
         </div>
       </div>
