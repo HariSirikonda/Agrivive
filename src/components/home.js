@@ -123,7 +123,7 @@ function Home() {
                     <div>
                         <h1 className='text-success'>Our Motive</h1>
                         <p>We started Agrivive with a strong motive to bring young youth into farming. Generally, people who were farmers throughout their life are making their children to study and do a decent IT job Nowadays. They usually hold a decent amount of land as they have farming history. Usually, what will happen, their children after growing up choces the IT job as their career. Now, the land they have since their fore fathers has now became Parmanently kept cropless. If Everyone is Doing so, who produces the food in India ?</p>
-                        <p><b>We have Decided to make those cropless lands to be filled with crops. Which in return gives us Food, Source of Money and Soil health.</b></p>
+                        <p><b>We have Decided to make those cropless lands to be filled with crops. Which in return gives us Food, Source of Money and Soil health for future generations to continue the process.</b></p>
                     </div>
                 </div>
                 <div className='w-25 p-2'>
