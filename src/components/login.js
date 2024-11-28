@@ -18,12 +18,9 @@ function Login() {
         <>
             <section className="wrapper d-flex align-items-center justify-content-center mb-3">
                 <div className="container mt-3">
-                    <div className="d-flex align-items-center justify-content-center w-50 mx-auto">
-                        <form className="rounded bg-white shadow p-5 m-2" style={{width: '550px', height: '650px'}}>
-                            <div className="logo">
-                                <img className="img-fluid p-2 w-25" src={Logo} alt="Logo" />
-                            </div>
-                            <h3 className="text-dark fw-bolder fs-4 mb-2">Sign into Agrivive</h3>
+                    <div className="d-flex align-items-center justify-content-center mx-auto">
+                        <form className="rounded bg-white shadow p-5 m-2" style={{width: '500px', height: '500px'}}>
+                            <h3 className="text-dark fw-bolder fs-4 mt-1">Login to Agrivive</h3>
                             <div className="fw-normal text-muted mb-2">
                                 New Here? <Link className="text-success text-decoration-none fw-bold" onClick={handleRegisterClick}>Create an Account</Link>
                             </div>
@@ -53,8 +50,8 @@ function Login() {
                                 <Link className="text-secondary text-decoration-none fw-bold" to="/register/forgotPassword">Forget Password</Link>
                             </div>
                             <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-2 p-1">Continue</button>
-                            <div className="text-center text-uppercase text-muted mb-3"><b>OR</b></div>
-                            <div className='my-2 d-flex align-items-center justify-content-center'>
+                            <div className="text-center text-uppercase text-muted mb-1"><b>OR</b></div>
+                            <div className='m-2 d-flex align-items-center justify-content-center'>
                                 <div className='bg-light m-2 d-flex align-items-center justify-content-center'>
                                     <img className='m-1 p-0' src={GoogleIcon}></img>
                                 </div>
