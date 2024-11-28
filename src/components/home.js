@@ -22,6 +22,7 @@ import Partner6 from './images/partner6.jpeg';
 import Partner7 from './images/TCS.jpeg';
 import Crops from './images/crops.jpg';
 import RiceCrops from './images/ricecrops.jpg';
+import DryLands from './images/drylands.jpg';
 
 function Home() {
     const myStyle = {
@@ -128,7 +129,7 @@ function Home() {
                 </div>
                 <div className='w-25 p-2'>
                     <h5>From This</h5>
-                    <img className='img-fluid' src={Crops} alt='show me'></img>
+                    <img className='img-fluid' src={DryLands} alt='show me'></img>
                 </div>
                 <div className='w-25 p-2'>
                     <h5>To This</h5>
