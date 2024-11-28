@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import GoogleIcon from './images/google-icon.svg';
 import LinkedIcon from './images/linkedin-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
+import InstagramIcon from './images/instagramLogo.jpeg'
 import Footer from './footer';
 
 function Login() {
@@ -15,10 +16,10 @@ function Login() {
 
     return (
         <>
-            <section className="wrapper mb-3">
-                <div className="container mt-5">
-                    <div className="align-items-center justify-content-center w-50 m-auto">
-                        <form className="rounded bg-white shadow p-5 m-2">
+            <section className="wrapper d-flex align-items-center justify-content-center mb-3">
+                <div className="container mt-3">
+                    <div className="d-flex align-items-center justify-content-center w-50 mx-auto">
+                        <form className="rounded bg-white shadow p-5 m-2" style={{width: '550px', height: '650px'}}>
                             <div className="logo">
                                 <img className="img-fluid p-2 w-25" src={Logo} alt="Logo" />
                             </div>
@@ -51,20 +52,17 @@ function Login() {
                             <div className="mt-2 text-end">
                                 <Link className="text-secondary text-decoration-none fw-bold" to="/register/forgotPassword">Forget Password</Link>
                             </div>
-                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue</button>
+                            <button id="ContinueButton" type="submit" className="submit_btn btn btn-md btn-success w-100 my-2 p-1">Continue</button>
                             <div className="text-center text-uppercase text-muted mb-3"><b>OR</b></div>
-                            <div className='m-2 d-block'>
-                                <div className='d-block bg-light m-2'>
-                                    <img className='me-2 p-1' src={GoogleIcon}></img>
-                                    <Link to={"https://www.google.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with google</Link>
+                            <div className='my-2 d-flex align-items-center justify-content-center'>
+                                <div className='bg-light m-2 d-flex align-items-center justify-content-center'>
+                                    <img className='m-1 p-0' src={GoogleIcon}></img>
                                 </div>
-                                <div className='d-block bg-light m-2'>
-                                    <img className='me-2 p-1' src={FacebookIcon}></img>
-                                    <Link to={"https://www.facebook.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with facebook</Link>
+                                <div className='bg-light m-2 d-flex align-items-center justify-content-center'>
+                                    <img className='m-1 p-0' src={FacebookIcon}></img>
                                 </div>
-                                <div className='d-block bg-light m-2'>
-                                    <img className='me-2 p-1' src={LinkedIcon}></img>
-                                    <Link to={"https://www.linkedin.com"} target='_blank' className='p-2 text-dark text-decoration-none me-2 p-2'>Continue with linkedin</Link>
+                                <div className='bg-light m-2 d-flex align-items-center justify-content-center'>
+                                    <img className='m-1 p-0' src={LinkedIcon}></img>
                                 </div>
                             </div>
                         </form>
