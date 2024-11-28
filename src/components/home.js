@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import Login from './login';
 import { Link } from 'react-router-dom';
 import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
@@ -23,19 +24,18 @@ import Partner7 from './images/TCS.jpeg';
 import Crops from './images/crops.jpg';
 import RiceCrops from './images/ricecrops.jpg';
 import DryLands from './images/drylands.jpg';
+import { useState } from 'react';
+import IntroImage from './introImage';
 
 function Home() {
-    const myStyle = {
-        backgroundImage: `url(${Img1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
-    };
-
+    const [isLogin, setIsLogin] = useState(false);
     const navigate = useNavigate();
     const handleRegisterClick = () => {
         navigate("/register");
     };
 
     const handleLoginClick = () => {
-        navigate("/login");
+        setIsLogin(!isLogin);
     };
 
     return (
@@ -59,7 +59,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-4'>
-                        <img src={Img3} alt='show me'></img>
+                        {isLogin ? (<Login/>) : (<IntroImage/>)}
                     </div>
                 </div>
             </section>
@@ -141,15 +141,15 @@ function Home() {
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
-                    <img className='img-fluid m-3' src={Partner1} style={{width: '256px',height: '76px'}}></img>
-                    <img className='img-fluid m-3' src={Partner2} style={{width: '550px',height: '80px'}}></img>
-                    <img className='img-fluid m-3' src={Partner3} style={{width: '332px',height: '201px'}}></img>
-                    <img className='img-fluid m-3' src={Partner4} style={{width: '100px',height: '100px'}}></img>
-                    <img className='img-fluid m-3' src={Partner5} style={{width: '100px',height: '100px'}}></img>
+                    <img className='img-fluid m-3' src={Partner1} style={{ width: '256px', height: '76px' }}></img>
+                    <img className='img-fluid m-3' src={Partner2} style={{ width: '550px', height: '80px' }}></img>
+                    <img className='img-fluid m-3' src={Partner3} style={{ width: '332px', height: '201px' }}></img>
+                    <img className='img-fluid m-3' src={Partner4} style={{ width: '100px', height: '100px' }}></img>
+                    <img className='img-fluid m-3' src={Partner5} style={{ width: '100px', height: '100px' }}></img>
                 </div>
             </section>
             {/* Footer */}
-            <Footer/>
+            <Footer />
         </>
     );
 }
