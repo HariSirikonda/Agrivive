@@ -123,8 +123,8 @@ function Home() {
                 <div className='container-fluid w-50 d-flex align-items-center justify-content-center'>
                     <div>
                         <h1 className='text-success'>Our Motive</h1>
-                        <p>We started Agrivive with a strong motive to bring young youth into farming. Generally, people who were farmers throughout their life are making their children to study and do a decent IT job Nowadays. They usually hold a decent amount of land as they have farming history. Usually, what will happen, their children after growing up choces the IT job as their career. Now, the land they have since their fore fathers has now became Parmanently kept cropless. If Everyone is Doing so, who produces the food in India ?</p>
-                        <p><b>We have Decided to make those cropless lands to be filled with crops. Which in return gives us Food, Source of Money and Soil health for future generations to continue the process.</b></p>
+                        <p>We started Agrivive with a strong purpose: to help landowners unlock the potential of their land for sustainable income generation. Over the years, we’ve seen many families with a rich heritage of farming choose different career paths, leaving their ancestral lands unused. While this shift offers opportunities in various fields, it also raises an important question—how can we ensure that fertile lands are utilized effectively to contribute to food production and economic growth? Agrivive aims to bridge this gap by empowering landowners to turn their unused lands into a reliable source of income while promoting sustainable agricultural practices.</p>
+                        <p><b>We are committed to transforming unused lands into thriving, crop-filled fields. This not only ensures a steady supply of food and a sustainable source of income but also revitalizes soil health, paving the way for future generations to continue and benefit from this cycle of growth.</b></p>
                     </div>
                 </div>
                 <div className='w-25 p-2'>
