@@ -26,14 +26,12 @@ import RiceCrops from './images/ricecrops.jpg';
 import DryLands from './images/drylands.jpg';
 import { useState } from 'react';
 import IntroImage from './introImage';
-import Register from './register';
 
 function Home() {
     const [isLogin, setIsLogin] = useState(false);
-    const [isRegister, setIsRegister] = useState(false);
-    
+    const navigate = useNavigate();
     const handleRegisterClick = () => {
-        setIsRegister(!isRegister);
+        navigate("/register");
     };
 
     const handleLoginClick = () => {
@@ -61,7 +59,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-4'>
-                        {isLogin ? (<Login/>) : isRegister ? (<Register/>) : (<IntroImage/>)}
+                        {isLogin ? (<Login/>) : (<IntroImage/>)}
                     </div>
                 </div>
             </section>
