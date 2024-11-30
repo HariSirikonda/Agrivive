@@ -11,12 +11,12 @@ function Login() {
     const navigate = useNavigate();
 
     const handleRegisterClick = () => {
-        navigate("/register");
+        navigate("/login");
     }
 
     return (
         <>
-            <form className="rounded bg-white shadow p-5 m-2 border" style={{ width: '500px', height: '500px' }}>
+            <form className="rounded bg-white shadow p-5 m-2 border fade-in" style={{ width: '500px', height: '500px' }}>
                 <h3 className="text-dark fw-bolder fs-4 mt-1">Login to Agrivive</h3>
                 <div className="fw-normal text-muted mb-2">
                     New Here? <Link className="text-success text-decoration-none fw-bold" onClick={handleRegisterClick}>Create an Account</Link>

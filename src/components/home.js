@@ -71,7 +71,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Loans} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Funding for the Crop</h5>
+                            <h5 className="card-title">Financial Services</h5>
                             <p className="card-text">Learn about the farm loans that might be right for you, check your eligibility, and get instructional help with the application forms.</p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
@@ -79,7 +79,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Marketing} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Marketing Responsibility</h5>
+                            <h5 className="card-title">Economical Services</h5>
                             <p className="card-text">Our marketing agents reach you at your land for scaling and marketing purpsoe. </p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
@@ -87,7 +87,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Testing} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Soil Testing</h5>
+                            <h5 className="card-title">Medical Services</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
@@ -95,7 +95,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Ligal} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Ligal Support</h5>
+                            <h5 className="card-title">Ligal Services</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
@@ -103,7 +103,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Inspection} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Onsite Inspections</h5>
+                            <h5 className="card-title">Technical Services</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
@@ -111,7 +111,7 @@ function Home() {
                     <div className="card d-flex w-25 m-2 p-2 align-items-center justify-content-center border-success">
                         <img src={Shop} className="card-img-top w-50" alt="Show me"></img>
                         <div className="card-body">
-                            <h5 className="card-title">You can purchase the Baby plants</h5>
+                            <h5 className="card-title">Environmental Services</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" className="btn btn-light">Learn more</a>
                         </div>
