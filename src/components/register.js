@@ -17,8 +17,8 @@ function Register() {
             <section className="wrapper mb-3">
                 <div className="container mt-5">
                     <div className="d-flex align-items-center justify-content-center w-50 m-auto">
-                        <form className="rounded bg-white shadow p-5 m-2" style={{ width: '500px' }}>
-                            <h3 className="text-dark fw-bolder fs-4 mb-2">Sign Up to Agrivive</h3>
+                        <form className="rounded bg-white shadow py-3 px-5 m-2 border" style={{ width: '500px', height: '500px'}}>
+                            <h3 className="text-dark fw-bolder fs-4">Sign Up to Agrivive</h3>
                             <div className='d-flex align-items-center justify-content-center'>
                                 <div className="form-check mx-2 m-3">
                                     <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
@@ -33,35 +33,35 @@ function Register() {
                                     </label>
                                 </div>
                             </div>
-                            <div className="form-floating mb-2 ">
-                                <input type="text" className="form-control" id="Username" placeholder="name@example.com" />
-                                <label for="floatingInput">First Name</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">First Name</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="form-floating mb-2 ">
-                                <input type="text" className="form-control" id="Username" placeholder="name@example.com" />
-                                <label for="floatingInput">Last Name</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Last Name</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="form-floating mb-2 ">
-                                <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
-                                <label for="floatingInput">Email address</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email Name</span>
+                                <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="form-floating mb-2 ">
-                                <input type="email" className="form-control" id="Username" placeholder="name@example.com" />
-                                <label for="floatingInput">Phone Number</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Phone Number</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="form-floating mb-2">
-                                <input type="password" className="form-control" id="Password" placeholder="Password" />
-                                <label for="floatingPassword">Password</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Password</span>
+                                <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="form-floating ">
-                                <input type="password" className="form-control" id="Password" placeholder="Password" />
-                                <label for="floatingPassword">Confirm Password</label>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Confirm Password</span>
+                                <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
-                            <div className="text-center w-100 mt-2 p-1">
+                            <div className="text-center w-100 mt-1 p-1">
                                 <input className="m-2" type="checkbox" value="TermsAccepted" checked={isChecked} onChange={handleCheckboxChange} />
-                                <label className="mt-2 mb-2">Accept Terms and Conditions</label>
+                                <label className="mt-1 mb-1">Accept Terms and Conditions</label>
                             </div>
-                            <button id="ContinueButton" type="submit" disabled={!isChecked} className="submit_btn btn btn-md btn-success w-100 my-4 p-2">Continue to <b>Sign up</b></button>
+                            <button id="ContinueButton" type="submit" disabled={!isChecked} className="submit_btn btn btn-md btn-success w-100 my-1 p-2">Continue to <b>Sign up</b></button>
                         </form>
                     </div>
                 </div>
