@@ -5,6 +5,9 @@ import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
 import Img3 from './images/planting.png';
 import Img4 from './images/Pluging.png';
+import Carousel1 from './images/corrosal1.png';
+import Carousel2 from './images/corrosal2.png';
+import Carousel3 from './images/corrosal3.png';
 import Loans from './images/loans.png';
 import Marketing from './images/Marketing.png';
 import Ligal from './images/ligal.png';
@@ -59,7 +62,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-4'>
-                        {isLogin ? (<Login/>) : (<IntroImage/>)}
+                        {isLogin ? (<Login />) : (<IntroImage />)}
                     </div>
                 </div>
             </section>
@@ -136,8 +139,15 @@ function Home() {
                     <img className='img-fluid' src={RiceCrops} alt='show me'></img>
                 </div>
             </section>
+            {/* Customer Satisfaction Section */}
+            <section className='container-fluid p-5 bg-light border'>
+                <div className='container d-flex align-items-center justify-content-center border'>
+                    <h1 className='text-success pb-3 mb-3'>What our cutomers have to say</h1>
+                    
+                </div>
+            </section>
             {/* Our Partners Section */}
-            <section className='container-fluid bg-light p-5'>
+            <section className='container-fluid p-5'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
