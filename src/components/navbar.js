@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import DropDownProfile from './dropdownprofile';
 
 const Navbar = () => {
-
   const navigate = useNavigate();
 
   const handleRegisterClick = () => {
@@ -13,8 +12,9 @@ const Navbar = () => {
   };
 
   const handleLoginClick = () => {
-    navigate("/login");
+    navigate("/loginpage")
   };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-center">
       <div className="container-fluid w-75">

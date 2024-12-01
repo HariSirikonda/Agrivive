@@ -30,7 +30,7 @@ import DryLands from './images/drylands.jpg';
 import { useState } from 'react';
 import IntroImage from './introImage';
 
-function Home() {
+function Home({LoginClicked}) {
     const [isLogin, setIsLogin] = useState(false);
     const navigate = useNavigate();
     const handleRegisterClick = () => {
@@ -139,15 +139,8 @@ function Home() {
                     <img className='img-fluid' src={RiceCrops} alt='show me'></img>
                 </div>
             </section>
-            {/* Customer Satisfaction Section */}
-            <section className='container-fluid p-5 bg-light border'>
-                <div className='container d-flex align-items-center justify-content-center border'>
-                    <h1 className='text-success pb-3 mb-3'>What our cutomers have to say</h1>
-                    
-                </div>
-            </section>
             {/* Our Partners Section */}
-            <section className='container-fluid p-5'>
+            <section className='container-fluid p-5 bg-light'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>

@@ -8,6 +8,7 @@ import Services from './components/services';
 import Careers from './components/careers';
 import Shop from './components/shop';
 import Login from './components/login';
+import LoginPage from './components/loginPage';
 import ForgotPassword from './components/forgotPassword';
 import Register from './components/register';
 
@@ -23,9 +24,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/loginpage" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/login/forgotPassword" element={<ForgotPassword/> } />
+          <Route path="/login/forgotPassword" element={<ForgotPassword />} />
         </Routes>
       </div>
     </BrowserRouter>
