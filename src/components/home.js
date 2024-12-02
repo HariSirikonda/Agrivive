@@ -5,9 +5,7 @@ import Img1 from './images/field-5430070_1280.jpg';
 import Img2 from './images/filtering.png';
 import Img3 from './images/planting.png';
 import Img4 from './images/Pluging.png';
-import Carousel1 from './images/corrosal1.png';
-import Carousel2 from './images/corrosal2.png';
-import Carousel3 from './images/corrosal3.png';
+import CarouselComponent from './carousel';
 import Loans from './images/loans.png';
 import Marketing from './images/Marketing.png';
 import Ligal from './images/ligal.png';
@@ -139,8 +137,11 @@ function Home({LoginClicked}) {
                     <img className='img-fluid' src={RiceCrops} alt='show me'></img>
                 </div>
             </section>
+            <section className='container-fluid bg-light'>
+                <CarouselComponent/>
+            </section>
             {/* Our Partners Section */}
-            <section className='container-fluid p-5 bg-light'>
+            <section className='container-fluid p-5'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
