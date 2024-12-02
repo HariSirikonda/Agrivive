@@ -23,6 +23,12 @@ function Login() {
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
                     <div className="form-check mx-2 m-3">
+                        <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" />
+                        <label className="form-check-label" for="radio1">
+                            Buyer
+                        </label>
+                    </div>
+                    <div className="form-check mx-2 m-3">
                         <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
                         <label className="form-check-label" for="radio1">
                             Land Owner
@@ -31,7 +37,7 @@ function Login() {
                     <div className="form-check mx-2 m-3">
                         <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" checked />
                         <label className="form-check-label" for="radio1">
-                            Tenent Registration
+                            Tenent
                         </label>
                     </div>
                 </div>
