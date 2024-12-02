@@ -92,7 +92,8 @@ function AboutUs() {
                     </div>
                     <div className="w-50 p-3 m-2">
                         <h1>Our Mission</h1>
-                        <p>To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.<br />By fostering sustainable practices and empowering rural communities, we contribute to a greener and more prosperous India.</p>
+                        <p>To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.prosperous India.</p>
+                        <p>By fostering sustainable practices and empowering rural communities, we contribute to a greener and more </p>
                     </div>
                     <div className="w-50 p-3 m-2">
                         <div className="text-start">
