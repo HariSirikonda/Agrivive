@@ -21,22 +21,22 @@ function Login() {
                 <div className="fw-normal text-muted mb-2">
                     New Here? <Link className="text-success text-decoration-none fw-bold" onClick={handleRegisterClick}>Create an Account</Link>
                 </div>
-                <div className='d-flex align-items-center justify-content-center'>
-                    <div className="form-check mx-2 m-3">
-                        <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" />
+                <div className='d-flex align-items-center justify-content-center p-2'>
+                    <div className="w-50">
+                        <input className='m-1' type="radio" name="exampleRadio" id="Tenent" value="Buyer" />
                         <label className="form-check-label" for="radio1">
                             Buyer
                         </label>
                     </div>
-                    <div className="form-check mx-2 m-3">
-                        <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
+                    <div className="w-50">
+                        <input className='m-1' type="radio" name="exampleRadio" id="LandOwner" value="LandOwner" />
                         <label className="form-check-label" for="radio1">
                             Land Owner
                         </label>
                     </div>
-                    <div className="form-check mx-2 m-3">
-                        <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" checked />
-                        <label className="form-check-label" for="radio1">
+                    <div className="w-50">
+                        <input className='m-1' type="radio" name="exampleRadio" id="Tenent" value="Tenent" />
+                        <label for="radio1">
                             Tenent
                         </label>
                     </div>

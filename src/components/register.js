@@ -19,22 +19,22 @@ function Register() {
                     <div className="d-flex align-items-center justify-content-center w-50 m-auto">
                         <form className="rounded bg-white shadow py-3 px-5 m-2 border" style={{ width: '500px', height: '500px' }}>
                             <h3 className="text-dark fw-bolder fs-4">Sign Up to Agrivive</h3>
-                            <div className='d-flex align-items-center justify-content-center'>
-                                <div className="form-check mx-2 m-3">
-                                    <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
+                            <div className='d-flex align-items-center justify-content-center p-2'>
+                                <div className="w-50">
+                                    <input className='m-1' type="radio" name="exampleRadio" id="Tenent" value="Buyer" />
                                     <label className="form-check-label" for="radio1">
                                         Buyer
                                     </label>
                                 </div>
-                                <div className="form-check mx-2 m-3">
-                                    <input className="form-check-input" type="radio" name="exampleRadio" id="LandOwner" value="option1" />
+                                <div className="w-50">
+                                    <input className='m-1' type="radio" name="exampleRadio" id="LandOwner" value="LandOwner" />
                                     <label className="form-check-label" for="radio1">
                                         Land Owner
                                     </label>
                                 </div>
-                                <div className="form-check mx-2 m-3">
-                                    <input className="form-check-input" type="radio" name="exampleRadio" id="Tenent" value="option1" checked />
-                                    <label className="form-check-label" for="radio1">
+                                <div className="w-50">
+                                    <input className='m-1' type="radio" name="exampleRadio" id="Tenent" value="Tenent" />
+                                    <label for="radio1">
                                         Tenent
                                     </label>
                                 </div>
