@@ -137,11 +137,8 @@ function Home({LoginClicked}) {
                     <img className='img-fluid' src={RiceCrops} alt='show me'></img>
                 </div>
             </section>
-            <section className='container-fluid bg-light'>
-                <CarouselComponent/>
-            </section>
             {/* Our Partners Section */}
-            <section className='container-fluid p-5'>
+            <section className='container-fluid p-5 bg-light'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>

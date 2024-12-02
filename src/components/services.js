@@ -12,13 +12,11 @@ function Services() {
                 <div className="container-fluid d-block border text-start">
                     <h1 className="p-2 text-center">Crop Financing Assistance</h1>
                     <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
-                    <div className="border container-fluid m-2">
+                    <div className="container-fluid m-2">
                         <div className="m-2 p-2 text-start">
                             <h4>Assesment of Requirements</h4>
                             <p>
                                 At Agrivive, we firmly believe that understanding your unique farming aspirations is the cornerstone of building a successful partnership. This stage, which we call the Assessment of Requirements, is not just a routine conversation but a transformative experience designed to set you on the right path. Our approach goes beyond numbers and documents; it's about understanding your dreams, challenges, and the vision you have for your land.
-                            </p>
-                            <p>
                                 When you step into Agrivive for financial assistance, you're not just another customer; you're a valued partner. Our financial experts invest their time and effort into creating a comfortable and welcoming environment where you can share your plans openly. Whether you are looking to cultivate your first crop, diversify into organic farming, or expand your existing operations, we are here to listen, guide, and support.
                             </p>
                             <p>
