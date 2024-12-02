@@ -1,13 +1,13 @@
 function AboutUs() {
     return (
         <>
-            <section class="bg-light-green text-dark py-5">
+            <section class="bg-light-green text-dark">
                 <div class="container">
                     <h1 class="display-4 text-center text-success">About Us</h1>
                     <p class="lead text-center">Empowering Farmers, Nurturing India's Future</p>
                     <hr />
-                    <div class="row mt-5">
-                        <div class="col-md-8">
+                    <div class="mt-5">
+                        <div class="conatiner">
                             <div className="discription text-start mx-2 my-3 p-2">
                                 <p className="mx-2 ">At Agrivive, we are on a mission to transform untapped agricultural potential into sustainable opportunities for income and growth. We began our journey with a strong purpose: to empower landowners to unlock the true value of their lands. Over the years, we have observed a growing trend—families with a rich legacy of farming are shifting towards other professions, leaving ancestral lands unused. This shift, while providing new opportunities, raises a crucial question: how can we ensure that fertile lands are utilized effectively to contribute to food security, economic prosperity, and environmental sustainability?</p>
                                 <h1 className="text-success p-2">The State of Indian Agriculture</h1>
@@ -81,26 +81,31 @@ function AboutUs() {
                                 </ol>
                             </div>
                         </div>
-                        <div class="col-md-4 p-3 bg-success text-light align-items-centers ">
-                            <h1>Our Vision</h1>
-                            <p >At Agrivive, we envision a future where every piece of arable land is put to productive use. Our goal is to create a sustainable ecosystem where farming is not just a livelihood but a legacy passed on to future generations.</p>
-                            <p >Together, we can fill cropless lands with life—producing food, generating income, and preserving the health of the soil for years to come. Whether you are a landowner, a budding farmer, or someone passionate about sustainable agriculture, Agrivive invites you to join us in making a difference.</p>
-                            <h5>Let’s grow, sustain, and thrive together</h5>
+                    </div>
+                </div>
+                <div class="container-fluid bg-success text-light align-items-centers d-flex">
+                    <div className="w-50 p-3 m-2">
+                        <h1>Our Vision</h1>
+                        <p >At Agrivive, we envision a future where every piece of arable land is put to productive use. Our goal is to create a sustainable ecosystem where farming is not just a livelihood but a legacy passed on to future generations.</p>
+                        <p >Together, we can fill cropless lands with life—producing food, generating income, and preserving the health of the soil for years to come. Whether you are a landowner, a budding farmer, or someone passionate about sustainable agriculture, Agrivive invites you to join us in making a difference.</p>
+                        <h5>Let’s grow, sustain, and thrive together</h5>
+                    </div>
+                    <div className="w-50 p-3 m-2">
+                        <h1>Our Mission</h1>
+                        <p>To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.<br />By fostering sustainable practices and empowering rural communities, we contribute to a greener and more prosperous India.</p>
+                    </div>
+                    <div className="w-50 p-3 m-2">
+                        <div className="text-start">
+                            <h1 className="m-3 text-center">Contact Us </h1>
                             <hr />
-                            <h1>Our Mission</h1>
-                            <p>To empower Indian farmers by providing innovative solutions and unwavering support. We strive to enhance agricultural productivity, sustainability, and profitability, transforming rural livelihoods. Through cutting-edge technology, financial assistance, and expert guidance, we aim to create a thriving agricultural ecosystem that benefits both farmers and consumers.<br />By fostering sustainable practices and empowering rural communities, we contribute to a greener and more prosperous India.</p>
-                            <div className="text-start">
-                                <h1 className="m-3 text-center">Contact Us </h1>
-                                <hr />
-                                <p><b>Phone numebr : </b>+91 99******123</p>
-                                <p><b>Email :</b> farmsupport@gmail.com</p>
-                                <p><b>Address : </b> H.no - 1-2-235,Hanuman line, Maisammaguda, medchal dist, Hyderabad, Talangana, India</p>
-                            </div>
-                            <div>
-                                <a className="m-2 text-light" href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-                                <a className="m-2 text-light" href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-                                <a className="m-2 text-light" href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-                            </div>
+                            <p><b>Phone numebr : </b>+91 99******123</p>
+                            <p><b>Email :</b> farmsupport@gmail.com</p>
+                            <p><b>Address : </b> H.no - 1-2-235,Hanuman line, Maisammaguda, medchal dist, Hyderabad, Talangana, India</p>
+                        </div>
+                        <div>
+                            <a className="m-2 text-light" href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a className="m-2 text-light" href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                            <a className="m-2 text-light" href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
                         </div>
                     </div>
                 </div>
