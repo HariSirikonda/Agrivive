@@ -52,8 +52,14 @@ function Services() {
                                 <p className='text-center'>With our support, you can invest confidently in seeds, equipment, and labor to turn your land into a thriving agricultural hub.</p>
                             </div>
                             <div className='d-flex align-items-center justify-content-center m-2 p-2'>
-                                <button className='btn btn-success m-2' type='submit'>Apply for a loan</button>
-                                <button className='btn btn-secondary border m-2' type='submit'>Claim Your Insurance</button>
+                                <button className='btn btn-success m-2' type='submit'>
+                                    <i className="fa-solid fa-landmark m-2"></i>
+                                    Apply for a loan
+                                </button>
+                                <button className='btn btn-secondary border m-2' type='submit'>
+                                    <i className="fa-solid fa-money-bill m-2"></i>
+                                    Claim Your Insurance
+                                </button>
                             </div>
                         </div>
                     </div>
