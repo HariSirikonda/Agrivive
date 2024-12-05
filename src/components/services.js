@@ -53,11 +53,11 @@ function Services() {
                             </div>
                             <div className='d-flex align-items-center justify-content-center m-2 p-2'>
                                 <button className='btn btn-success m-2' type='submit'>
-                                    <i className="fa-solid fa-landmark m-2"></i>
+                                    <i className="fa-solid fa-landmark mx-2"></i>
                                     Apply for a loan
                                 </button>
                                 <button className='btn btn-secondary border m-2' type='submit'>
-                                    <i className="fa-solid fa-money-bill m-2"></i>
+                                    <i className="fa-solid fa-money-bill mx-2"></i>
                                     Claim Your Insurance
                                 </button>
                             </div>
