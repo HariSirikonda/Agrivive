@@ -19,7 +19,7 @@ function Services() {
                     <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                     <hr />
                 </div>
-                <div className="container-fluid d-flex bg-light text-start p-2">
+                <div className="container-fluid d-flex bg-light text-start p-2 border">
                     <div className='m-2 p-2'>
                         <h1 className="p-2 text-center">Financial Services</h1>
                         <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
@@ -57,6 +57,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <h1>Hello</h1>
                 </div>
             </section>
         </>
