@@ -5,8 +5,10 @@ import Ligal from './images/ligal.png';
 import Testing from './images/testing.png';
 import Inspection from './images/inspection.png';
 import Shop from './images/shop.png';
-import Farmer from './images/happyfarmer.jpg';
+import Soil from './images/soil.jpg';
+import IndianFarmer from './images/indianhappyfarmer.jpg';
 import ServicesImage from './images/fs.png';
+import RiceCrops from './images/ricecrops.jpg';
 
 function Services() {
     return (
@@ -17,17 +19,25 @@ function Services() {
                     <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                     <hr />
                 </div>
-                <div className="container d-flex bg-light text-start p-2">
+                <div className="container-fluid d-flex bg-light text-start p-2">
                     <div className='m-2 p-2'>
                         <h1 className="p-2 text-center">Financial Services</h1>
                         <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
                         <div className="container-fluid m-2">
                             <div className="m-2 p-2 text-start">
-                                <h4 className='text-center'>Agrivive Values Soil health more than Credit Score</h4>
-                                <p className='text-center'>
-                                    At Agrivive, we firmly believe that understanding your unique farming aspirations is the cornerstone of building a successful partnership. This stage, which we call the Assessment of Requirements, is not just a routine conversation but a transformative experience designed to set you on the right path. Our approach goes beyond numbers and documents; it's about understanding your dreams, challenges, and the vision you have for your land.
-                                    When you step into Agrivive for financial assistance, you're not just another customer; you're a valued partner. Our financial experts invest their time and effort into creating a comfortable and welcoming environment where you can share your plans openly. Whether you are looking to cultivate your first crop, diversify into organic farming, or expand your existing operations, we are here to listen, guide, and support.
-                                </p>
+                                <div className='d-flex align-items-center justify-content-center'>
+                                    <div className='m-2 p-2'>
+                                        <h4 className='text-center'>Agrivive Values Soil health more than Credit Score</h4>
+                                        <p className='text-center'>
+                                            At Agrivive, we firmly believe that understanding your unique farming aspirations is the cornerstone of building a successful partnership. This stage, which we call the Assessment of Requirements, is not just a routine conversation but a transformative experience designed to set you on the right path. Our approach goes beyond numbers and documents; it's about understanding your dreams, challenges, and the vision you have for your land.
+                                            When you step into Agrivive for financial assistance, you're not just another customer; you're a valued partner. Our financial experts invest their time and effort into creating a comfortable and welcoming environment where you can share your plans openly. Whether you are looking to cultivate your first crop, diversify into organic farming, or expand your existing operations, we are here to listen, guide, and support.
+                                        </p>
+                                    </div>
+                                    <div className='w-50 d-flex align-items-center justify-content-center'>
+                                        <img src={RiceCrops} className='m-2 rounded shadow border-success' style={{width: '200px', height : '200px'}}></img>
+                                        <img src={IndianFarmer} className='m-2 rounded shadow border-success' style={{width: '200px', height : '200px'}}></img>
+                                    </div>
+                                </div>
                                 <ul>
                                     <li>
                                         <p>We assist you in preparing the necessary documents, including a detailed farming plan, and ensure compliance with lending institutions' requirements.</p>
