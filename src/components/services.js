@@ -18,7 +18,7 @@ function Services() {
                     <hr />
                 </div>
                 <div className="container d-flex bg-light text-start p-2">
-                    <div className='m-2 p-2 w-50'>
+                    <div className='m-2 p-2'>
                         <h1 className="p-2 text-center">Financial Services</h1>
                         <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
                         <div className="container-fluid m-2">
@@ -45,11 +45,6 @@ function Services() {
                                 <button className='btn btn-success m-2' type='submit'>Apply for a loan</button>
                                 <button className='btn btn-secondary border m-2' type='submit'>Claim Your Insurance</button>
                             </div>
-                        </div>
-                    </div>
-                    <div className='m-2 p-2 w-50 d-flex align-items-center justify-content-center'>
-                        <div>
-                            <img className='img-fluid' src={ServicesImage} alt='show me'></img>
                         </div>
                     </div>
                 </div>
