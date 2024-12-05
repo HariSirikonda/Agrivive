@@ -1,6 +1,4 @@
 import Item from "./item";
-import Star from './images/star.png';
-import Pot from './images/pot.png';
 
 function Shop() {
     return (
