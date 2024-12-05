@@ -40,8 +40,8 @@ function Services() {
                                         </p>
                                     </div>
                                     <div className='w-50 d-flex align-items-center justify-content-center'>
-                                        <img src={RiceCrops} className='m-2 rounded shadow border-success' style={{ width: '200px', height: '200px' }}></img>
-                                        <img src={IndianFarmer} className='m-2 rounded shadow border-success' style={{ width: '200px', height: '200px' }}></img>
+                                        <img src={RiceCrops} className='m-2 rounded shadow border-success' style={{ width: '300px', height: '300px' }}></img>
+                                        <img src={IndianFarmer} className='m-2 rounded shadow border-success' style={{ width: '300px', height: '300px' }}></img>
                                     </div>
                                 </div>
                                 <ul>
