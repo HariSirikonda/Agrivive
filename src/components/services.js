@@ -18,12 +18,14 @@ function Services() {
     return (
         <>
             <section>
-                <div className="container-fluid align-items-center justify-content-center">
+                {/* Header */}
+                <section className="container-fluid align-items-center justify-content-center">
                     <h1 className="display-4 text-center text-success">Our Services</h1>
                     <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                     <hr />
-                </div>
-                <div className="container-fluid d-flex bg-light text-start p-2">
+                </section>
+                {/* Financial Services section */}
+                <section className="container-fluid d-flex bg-light text-start p-2">
                     <div className='m-2 p-2'>
                         <h1 className="p-2 text-center">Financial Services</h1>
                         <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
@@ -67,9 +69,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
-                {/* Revenue Sharing Models */}
-                <div className='container-fluid p-2'>
+                </section>
+                {/* Revenue Sharing Models Section */}
+                <section className='container-fluid p-2'>
                     <div className='m-2 p-2'>
                         <h1 className='text-success'>Revenue Sharing Models</h1>
                         <p>At Agrivive, we understand that many landowners may not have the time or expertise to farm their land directly. To address this, we offer flexible Revenue Sharing Models, designed to ensure that landowners can still benefit from their assets without the day-to-day involvement in farming operations. Our model allows landowners to generate a steady income, even if they are unable to actively farm their land.</p>
@@ -134,7 +136,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </section>
         </>
     );
