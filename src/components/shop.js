@@ -1,6 +1,13 @@
 import Item from "./item";
+import Pot from './images/pot.png';
+import Item1 from './images/1_Item.png';
+import Item2 from './images/2_Item.png';
+import Item3 from './images/3_Item.png';
+import Item4 from './images/4_Item.png';
+import Item5 from './images/5_Item.png';
+import Item6 from './images/6_Item.png';
 
-function Shop() {
+const Shop = () => {
     return (
         <>
             <section className="container-fluid border">
@@ -11,16 +18,14 @@ function Shop() {
                 </div>
                 <div className="container border">
                     <div className="d-flex align-items-center justify-content-center">
-                        <Item name="Kwansen Tree" cost="124.95" Off="17%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
+                        <Item image={Item1} name="Kwansen Tree" cost="124.95" Off="17%" />
+                        <Item image={Item2} name="Kwansen Tree" cost="124.95" Off="17%" />
+                        <Item image={Item3} name="Kwansen Tree" cost="124.95" Off="17%" />
+                        <Item image={Item4} name="Kwansen Tree" cost="124.95" Off="17%" />
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
-                        <Item name="Kwansen Tree" cost="124.95" Off="17%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
-                        <Item name="Dalicus Tree" cost="150.00" Off="10%" />
+                        <Item image={Item5} name="Kwansen Tree" cost="124.95" Off="17%" />
+                        <Item image={Item6} name="Kwansen Tree" cost="124.95" Off="17%" />
                     </div>
                 </div>
             </section>

@@ -1,11 +1,12 @@
 import Pot from './images/pot.png';
 import Star from './images/star.png';
-function Item(props) {
+
+function Item(props){
     return(
         <>
             <div className="border border-success m-2" style={{width: '310px', height: '520px'}}>
                 <div className="image-div rounded">
-                    <img src={Pot} className="border m-1" alt="Show me" style={{width: '300px', height: '300px'}}></img>
+                    <img src={props.image} className="border m-1" alt="Show me" style={{width: '300px', height: '300px'}}></img>
                 </div>
                 <div className="item-info text-start">
                     <div className="p-2">
