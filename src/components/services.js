@@ -9,6 +9,10 @@ import Soil from './images/soil.jpg';
 import IndianFarmer from './images/indianhappyfarmer.jpg';
 import ServicesImage from './images/fs.png';
 import RiceCrops from './images/ricecrops.jpg';
+import Plot from './images/plot.png';
+import Profits from './images/profits.png';
+import CheckList from './images/check-list.png';
+import Agreement from './images/agreement.png';
 
 function Services() {
     return (
@@ -19,7 +23,7 @@ function Services() {
                     <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                     <hr />
                 </div>
-                <div className="container-fluid d-flex bg-light text-start p-2 border">
+                <div className="container-fluid d-flex bg-light text-start p-2">
                     <div className='m-2 p-2'>
                         <h1 className="p-2 text-center">Financial Services</h1>
                         <p className="text-center">Agrivive understands that starting or expanding a farming operation can be financially challenging. Our crop financing assistance is designed to ease this burden by providing farmers with access to low-interest loans and grants. When you approach Agrivive for financing, we guide you through the following steps:</p>
@@ -34,8 +38,8 @@ function Services() {
                                         </p>
                                     </div>
                                     <div className='w-50 d-flex align-items-center justify-content-center'>
-                                        <img src={RiceCrops} className='m-2 rounded shadow border-success' style={{width: '200px', height : '200px'}}></img>
-                                        <img src={IndianFarmer} className='m-2 rounded shadow border-success' style={{width: '200px', height : '200px'}}></img>
+                                        <img src={RiceCrops} className='m-2 rounded shadow border-success' style={{ width: '200px', height: '200px' }}></img>
+                                        <img src={IndianFarmer} className='m-2 rounded shadow border-success' style={{ width: '200px', height: '200px' }}></img>
                                     </div>
                                 </div>
                                 <ul>
@@ -64,8 +68,72 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h1>Hello</h1>
+                {/* Revenue Sharing Models */}
+                <div className='container-fluid p-2'>
+                    <div className='m-2 p-2'>
+                        <h1 className='text-success'>Revenue Sharing Models</h1>
+                        <p>At Agrivive, we understand that many landowners may not have the time or expertise to farm their land directly. To address this, we offer flexible Revenue Sharing Models, designed to ensure that landowners can still benefit from their assets without the day-to-day involvement in farming operations. Our model allows landowners to generate a steady income, even if they are unable to actively farm their land.</p>
+                    </div>
+                    {/* Revenue Sharing Models Cards */}
+                    <div className='container-fluid d-flex align-items-top justify-content-center p-2'>
+                        <div className='border text-center m-2 border p-3 w-25'>
+                            <img src={Plot} className='m-3' style={{ width: '100px', height: '100px' }} alt='show me'></img>
+                            <h4>1. Land Evaluation</h4>
+                            <p>We start by thoroughly assessing your land. Our experts evaluate the size, fertility, and overall potential of the soil. This helps us determine the most suitable crops and farming methods that can be implemented to ensure maximum productivity. Every piece of land is unique, and our detailed assessment ensures that we can tailor our approach accordingly.</p>
+                        </div>
+                        <div className='border text-center m-2 border p-3 w-25'>
+                            <img src={Agreement} className='m-3' style={{ width: '100px', height: '100px' }} alt='show me'></img>
+                            <h4>2. Agreement Formation</h4>
+                            <p>Once we have evaluated the land, we draft a transparent and mutually beneficial agreement with the landowner. This agreement clearly outlines the profit-sharing terms, the responsibilities of both parties, and the expected outcomes. Our focus is on building trust and ensuring that the landowner fully understands their role in the process, even though they are not directly involved in day-to-day farming operations.</p>
+                        </div>
+                        <div className='border text-center m-2 border p-3 w-25'>
+                            <img src={CheckList} className='m-3' style={{ width: '100px', height: '100px' }} alt='show me'></img>
+                            <h4>3. Farming Operations</h4>
+                            <p>Agrivive takes on all aspects of the farming process, from the initial sowing of seeds to the final harvest. We employ the best farming practices, utilizing modern agricultural techniques and technologies to ensure optimal productivity. This includes managing soil health, crop rotation, pest control, and irrigation. By handling all operational aspects, we remove the burden of farming from the landowner while ensuring the land is farmed efficiently.</p>
+                        </div>
+                        <div className='border text-center m-2 border p-3 w-25'>
+                            <img src={Profits} className='m-3' style={{ width: '100px', height: '100px' }} alt='show me'></img>
+                            <h4>4. Profit Distribution</h4>
+                            <p>Once the harvest is complete, Agrivive handles the sale of produce and ensures the landowner receives their share of the profits. The distribution is simple and transparent: the profits are directly transferred to the landowner's bank account. This eliminates any hassle for the landowner, ensuring a smooth and timely payout.</p>
+                        </div>
+                    </div>
+                    {/* Questions on Revenue Sharing Models */}
+                    <div className='container-fluid d-flex align-items-center justify-content-center'>
+                        <div className='p-5 m-5 w-50 text-center'>
+                            <h5>This model ensures that landowners who cannot actively farm their land still benefit from its potential. By partnering with Agrivive, they can rest assured that their land is being farmed efficiently and profitably, contributing to the agricultural economy while generating a reliable income.</h5>
+                        </div>
+                        <div className='p-2 rounded bg-success text-light shadow w-50 m-5'>
+                            <h3 className='m-2 p-2 border-bottom border-white'>Why Choose our Revenue Sharing Models ?</h3>
+                            <div className='text-start'>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <b>Hassel-free : </b>
+                                            Landowners can enjoy the benefits of farming without the need for direct involvement.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Transparent : </b>
+                                            We provide clear terms and transparent operations, ensuring that both parties are always on the same page.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Sustainable Income : </b>
+                                            Our farming practices are designed to generate steady, long-term income for landowners.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Expert Management : </b>
+                                            Agrivive’s team of agricultural experts ensures the land is farmed using the most effective and sustainable practices.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
