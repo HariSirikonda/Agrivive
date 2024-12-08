@@ -137,6 +137,64 @@ function Services() {
                         </div>
                     </div>
                 </section>
+                {/* Crop Insurance */}
+                <section className="container-fluid bg-light p-2">
+                    <div className="m-2 d-flex align-items-center justify-content-center">
+                        <div className="m-1 w-75">
+                            <div className="border-bottom border-success text-start p-2 m-2">
+                                <h1>Our Crop Insurance Procedure at Agrivive</h1>
+                            </div>
+                            <div className="text-start p-2 mt-2 mx-2">
+                                <p>Farming, while rewarding, comes with its fair share of risks. The unpredictability of weather patterns, pest infestations, and crop diseases can pose significant threats to agricultural operations. At Agrivive, we understand these challenges and are committed to helping farmers secure their investments. By partnering with reputable insurance providers, we offer a comprehensive Crop Insurance Facilitation service designed to protect your livelihood.</p>
+                            </div>
+                            <div className="text-start p-2 mx-5">
+                                <h2>How Agrivive's Crop Facilitation Works ?</h2>
+                                <div className="p-2 m-2">
+                                    <ol>
+                                        <li>
+                                            <p><b>Risk Assessment : </b> Our journey begins with an in-depth analysis of the risks specific to your region and chosen crops. We consider historical weather data, pest activity, and disease prevalence to provide you with a clear understanding of potential threats. This ensures you’re informed and adequately prepared.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Policy Selection :</b> Once risks are assessed, we guide you in selecting the best insurance policy tailored to your needs. These policies provide coverage for crop failure due to natural disasters like droughts or floods, pest infestations, and diseases. Agrivive works with a network of trusted insurance providers to offer you a range of plans that fit your budget and farming requirements.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Documentation and Enrollment : </b> Insurance can often involve cumbersome paperwork and formalities. Our team handles all documentation on your behalf, simplifying the enrollment process. From filling out application forms to submitting required documents, Agrivive ensures that the process is hassle-free and time-efficient.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Claim Assistance : </b> In the unfortunate event of a loss, we stand by you to help navigate the claims process. Our experts assist in filing claims accurately and ensure all necessary details are submitted to expedite the reimbursement process. Agrivive’s proactive support ensures you receive your benefits without unnecessary delays.</p>
+                                        </li>
+                                    </ol>
+                                    <div className="d-flex align-items-center justify-items-center m-2 p-2">
+                                        <div className="text-center m-2 p-2 w-50">
+                                            <div className="border-bottom border-dark">
+                                                <h3>How This Service Secures Your Future</h3>
+                                            </div>
+                                            <div className="m-2">
+                                                <p>Agrivive’s crop insurance facilitation provides a safety net, allowing farmers to take calculated risks without the fear of catastrophic losses. This service not only protects your current investments but also ensures the sustainability of your farming operations for future seasons.</p>
+                                            </div>
+                                        </div>
+                                        <div className="m-2 p-2 rounded bg-success w-50 text-white">
+                                            <div className="text-center border-bottom">
+                                                <h3>Why Choose Agrivive for Crop Insurance Facilitation?</h3>
+                                            </div>
+                                            <div className="m-1 p-1">
+                                                <ul>
+                                                    <li><p>Protect your crops from a variety of risks, including weather extremities, pests, and diseases ?</p></li>
+                                                    <li><p>Our team of specialists helps you choose policies that align with your specific farming needs ?</p></li>
+                                                    <li><p>We handle all paperwork and administrative tasks, letting you focus on your farming operations.</p></li>
+                                                    <li><p>Agrivive’s dedicated team ensures you receive your benefits promptly and efficiently.</p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="m-1 w-25 border">
+                            <h4>Enter teh div</h4>
+                        </div>
+                    </div>
+                </section>
             </section>
         </>
     );
