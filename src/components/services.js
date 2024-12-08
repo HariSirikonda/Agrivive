@@ -13,6 +13,7 @@ import Plot from './images/plot.png';
 import Profits from './images/profits.png';
 import CheckList from './images/check-list.png';
 import Agreement from './images/agreement.png';
+import Insurance from './images/insurance.png';
 
 function Services() {
     return (
@@ -140,7 +141,7 @@ function Services() {
                 {/* Crop Insurance */}
                 <section className="container-fluid bg-light p-2">
                     <div className="m-2 d-flex align-items-center justify-content-center">
-                        <div className="m-1 w-75">
+                        <div className="m-1">
                             <div className="border-bottom border-success text-start p-2 m-2">
                                 <h1>Our Crop Insurance Procedure at Agrivive</h1>
                             </div>
@@ -169,18 +170,23 @@ function Services() {
                                             <div className="border-bottom border-dark">
                                                 <h3>How This Service Secures Your Future</h3>
                                             </div>
-                                            <div className="m-2">
-                                                <p>Agrivive’s crop insurance facilitation provides a safety net, allowing farmers to take calculated risks without the fear of catastrophic losses. This service not only protects your current investments but also ensures the sustainability of your farming operations for future seasons.</p>
+                                            <div className="d-flex align-items-center justify-content-center m-2">
+                                                <div className="m-1 p-2">
+                                                    <p>Agrivive’s crop insurance facilitation provides a safety net, allowing farmers to take calculated risks without the fear of catastrophic losses. This service not only protects your current investments but also ensures the sustainability of your farming operations for future seasons.</p>
+                                                </div>
+                                                <div className="m-2 p-2">
+                                                    <img src={Insurance} alt="Show me" className="border shadow" style={{width: '200px', height: '200px'}}></img>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="m-2 p-2 rounded bg-success w-50 text-white">
+                                        <div className="m-2 p-2 rounded bg-success shadow w-50 text-white">
                                             <div className="text-center border-bottom">
                                                 <h3>Why Choose Agrivive for Crop Insurance Facilitation?</h3>
                                             </div>
                                             <div className="m-1 p-1">
                                                 <ul>
-                                                    <li><p>Protect your crops from a variety of risks, including weather extremities, pests, and diseases ?</p></li>
-                                                    <li><p>Our team of specialists helps you choose policies that align with your specific farming needs ?</p></li>
+                                                    <li><p>Protect your crops from a variety of risks, including weather extremities, pests, and diseases.</p></li>
+                                                    <li><p>Our team of specialists helps you choose policies that align with your specific farming needs.</p></li>
                                                     <li><p>We handle all paperwork and administrative tasks, letting you focus on your farming operations.</p></li>
                                                     <li><p>Agrivive’s dedicated team ensures you receive your benefits promptly and efficiently.</p></li>
                                                 </ul>
@@ -189,9 +195,6 @@ function Services() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="m-1 w-25 border">
-                            <h4>Enter teh div</h4>
                         </div>
                     </div>
                 </section>
