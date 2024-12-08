@@ -14,6 +14,7 @@ import Profits from './images/profits.png';
 import CheckList from './images/check-list.png';
 import Agreement from './images/agreement.png';
 import Insurance from './images/insurance.png';
+import FarmerShakingHands from './images/farmerhandshake.jpg';
 
 function Services() {
     return (
@@ -175,7 +176,7 @@ function Services() {
                                                     <p>Agrivive’s crop insurance facilitation provides a safety net, allowing farmers to take calculated risks without the fear of catastrophic losses. This service not only protects your current investments but also ensures the sustainability of your farming operations for future seasons.</p>
                                                 </div>
                                                 <div className="m-2 p-2">
-                                                    <img src={Insurance} alt="Show me" className="border shadow" style={{width: '200px', height: '200px'}}></img>
+                                                    <img src={Insurance} alt="Show me" className="border shadow" style={{ width: '200px', height: '200px' }}></img>
                                                 </div>
                                             </div>
                                         </div>
@@ -194,6 +195,51 @@ function Services() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* Economical Services */}
+                <section className="container-fluid bg-white">
+                    <div className="m-2 mx-5 p-2 text-success border-bottom border-success">
+                        <h1>Economical Services</h1>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <div className="w-50 border m-3 p-2" >
+                            <div className="m-2 border-bottom border-secondary">
+                                <h3>Market Linkages and Supply Chain Management</h3>
+                            </div>
+                            <div className="text-start m-3 p-2">
+                                <div>
+                                    <p>For many farmers, producing high-quality crops is only half the battle; the real challenge lies in securing fair prices and ensuring their produce reaches the right markets. Agrivive is dedicated to addressing this pressing issue through an efficient and farmer-centric Market Linkages and Supply Chain Management service. This comprehensive approach ensures that farmers receive fair compensation for their hard work while streamlining the journey of agricultural produce from farms to markets.. Agrivive bridges this gap by:</p>
+                                </div>
+                                <div className="text-start d-flex align-items-center justify-content-center m-1 p-1">
+                                    <div className="m-1 w-75">
+                                        <ol>
+                                            <li>
+                                                <p><b>Connecting Farmers to Buyers : </b> We establish direct links between farmers and wholesalers, retailers, and organic produce markets.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Supply Chain Optimization : </b>From farm to market, we streamline transportation, storage, and delivery to ensure produce reaches buyers fresh and on time.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Fair Pricing Assurance : </b>By eliminating middlemen, we guarantee farmers receive competitive prices for their crops.</p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div className="w-25 align-items-center justify-content-center m-2 p-2">
+                                        <img src={FarmerShakingHands} alt="Show me" style={{width: '200px' , height: '200px'}} className="shadow"></img>
+                                    </div>
+                                </div>
+                                <div className="m-1">
+                                    <p>Consider a small-scale farmer growing organic vegetables in Karnataka. Traditionally, this farmer might sell their produce to a middleman, receiving a fraction of the market price. Through Agrivive’s Market Linkages service, the farmer connects directly with urban organic stores. With our optimized supply chain, the vegetables are transported fresh to city markets, and the farmer receives a competitive price promptly. This partnership results in higher income and long-term market reliability for the farmer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-50 border m-3 p-2" >
+                            <div className="m-2 border-bottom border-secondary">
+                                <h3>Profit Optimization Consulting
+                                </h3>
                             </div>
                         </div>
                     </div>
