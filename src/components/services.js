@@ -102,7 +102,7 @@ function Services() {
                     {/* Questions on Revenue Sharing Models */}
                     <div className='container-fluid d-flex align-items-center justify-content-center'>
                         <div className='p-5 m-5 w-50 text-center'>
-                            <h5>This model ensures that landowners who cannot actively farm their land still benefit from its potential. By partnering with Agrivive, they can rest assured that their land is being farmed efficiently and profitably, contributing to the agricultural economy while generating a reliable income.</h5>
+                            <h5 className='lead fs-3'>This model ensures that landowners who cannot actively farm their land still benefit from its potential. By partnering with Agrivive, they can rest assured that their land is being farmed efficiently and profitably, contributing to the agricultural economy while generating a reliable income.</h5>
                         </div>
                         <div className='p-2 rounded bg-success text-light shadow w-50 m-5'>
                             <h3 className='m-2 p-2 border-bottom border-white'>Why Choose our Revenue Sharing Models ?</h3>
