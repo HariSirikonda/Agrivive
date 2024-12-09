@@ -204,42 +204,52 @@ function Services() {
                     <div className="m-2 mx-5 p-2 text-success border-bottom border-success">
                         <h1>Economical Services</h1>
                     </div>
-                    <div className="d-flex align-items-center justify-content-center">
+                    <div className="d-flex align-items-top justify-content-center ">
                         <div className="w-50 border m-3 p-2" >
                             <div className="m-2 border-bottom border-secondary">
                                 <h3>Market Linkages and Supply Chain Management</h3>
                             </div>
                             <div className="text-start m-3 p-2">
                                 <div>
-                                    <p>For many farmers, producing high-quality crops is only half the battle; the real challenge lies in securing fair prices and ensuring their produce reaches the right markets. Agrivive is dedicated to addressing this pressing issue through an efficient and farmer-centric Market Linkages and Supply Chain Management service. This comprehensive approach ensures that farmers receive fair compensation for their hard work while streamlining the journey of agricultural produce from farms to markets.. Agrivive bridges this gap by:</p>
-                                </div>
-                                <div className="text-start d-flex align-items-center justify-content-center m-1 p-1">
-                                    <div className="m-1 w-75">
-                                        <ol>
-                                            <li>
-                                                <p><b>Connecting Farmers to Buyers : </b> We establish direct links between farmers and wholesalers, retailers, and organic produce markets.</p>
-                                            </li>
-                                            <li>
-                                                <p><b>Supply Chain Optimization : </b>From farm to market, we streamline transportation, storage, and delivery to ensure produce reaches buyers fresh and on time.</p>
-                                            </li>
-                                            <li>
-                                                <p><b>Fair Pricing Assurance : </b>By eliminating middlemen, we guarantee farmers receive competitive prices for their crops.</p>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                    <div className="w-25 align-items-center justify-content-center m-2 p-2">
-                                        <img src={FarmerShakingHands} alt="Show me" style={{width: '200px' , height: '200px'}} className="shadow"></img>
-                                    </div>
+                                    <p>One of the most critical challenges farmers face is getting fair prices for their produce. Agrivive bridges this gap by:</p>
                                 </div>
                                 <div className="m-1">
+                                    <ol>
+                                        <li>
+                                            <p><b>Connecting Farmers to Buyers : </b> We establish direct links between farmers and wholesalers, retailers, and organic produce markets.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Supply Chain Optimization : </b>From farm to market, we streamline transportation, storage, and delivery to ensure produce reaches buyers fresh and on time.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Fair Pricing Assurance : </b>By eliminating middlemen, we guarantee farmers receive competitive prices for their crops.</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div className="m-2">
                                     <p>Consider a small-scale farmer growing organic vegetables in Karnataka. Traditionally, this farmer might sell their produce to a middleman, receiving a fraction of the market price. Through Agrivive’s Market Linkages service, the farmer connects directly with urban organic stores. With our optimized supply chain, the vegetables are transported fresh to city markets, and the farmer receives a competitive price promptly. This partnership results in higher income and long-term market reliability for the farmer.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="w-50 border m-3 p-2" >
                             <div className="m-2 border-bottom border-secondary">
-                                <h3>Profit Optimization Consulting
-                                </h3>
+                                <h3>Profit Optimization Consulting</h3>
+                            </div>
+                            <div className="m-1 p-1">
+                                <p>Agrivive goes beyond farming to ensure maximum profitability for your efforts. Our experts guide you on:</p>
+                            </div>
+                            <div className="m-1 p-1 text-start">
+                                <ol>
+                                    <li>
+                                        <p><b>Crop Selection:</b> Choosing high-demand, high-value crops for your region.</p>
+                                    </li>
+                                    <li>
+                                        <p><b>Cost Management:</b> Strategies to reduce operational costs without compromising quality.</p>
+                                    </li>
+                                    <li>
+                                        <p><b>Value Addition: </b>Techniques to transform raw produce into market-ready products (e.g., packaged organic spices).</p>
+                                    </li>
+                                </ol>
                             </div>
                         </div>
                     </div>
