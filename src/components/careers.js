@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import BusinessPeople from './images/Businesspeople.jpg';
 import BusinessPeople2 from './images/Businesspeople2.jpg';
+import Building from './images/building.png';
+import Education from './images/education.png';
+import HeartBeat from './images/heart-beat.png';
+import PiggyBank from './images/piggy-bank.png';
+import Slippers from './images/slippers.png';
+import Umbrella from './images/umbrella.png';
 
 function Careers(){
     return(
@@ -24,7 +30,12 @@ function Careers(){
                     </div>
                 </div>
             </section>
-            
+            <section className='bg-light broder align-items-center justify-content-center'>
+                <div className='text-center p-2 m-2'>
+                    <h1>How we keep Top Talent</h1>
+                </div>
+
+            </section>
         </section>
     );
 }
