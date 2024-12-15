@@ -7,10 +7,11 @@ import HeartBeat from './images/heart-beat.png';
 import PiggyBank from './images/piggy-bank.png';
 import Slippers from './images/slippers.png';
 import Umbrella from './images/umbrella.png';
+import StudentIntern from './images/studentIntern.jpg';
 
-function Careers(){
-    return(
-        <section className="Careers-page p-3">
+function Careers() {
+    return (
+        <section className="Careers-page p-3 container-fluid">
             {/* Intro Section */}
             <section className="p-3">
                 <div className="d-flex align-items-center justify-content-center">
@@ -26,8 +27,8 @@ function Careers(){
                         <Link className='text-decoration-none'>View All jobs</Link>
                     </div>
                     <div className="w-50 p-3 m-3 d-flex ">
-                        <img className='shadow m-2' src={BusinessPeople} alt='show me' style={{width : '375px', height :'375px'}}></img>
-                        <img className='shadow m-2' src={BusinessPeople2} alt='show me' style={{width : '375px', height :'375px'}}></img>
+                        <img className='shadow m-2' src={BusinessPeople} alt='show me' style={{ width: '375px', height: '375px' }}></img>
+                        <img className='shadow m-2' src={BusinessPeople2} alt='show me' style={{ width: '375px', height: '375px' }}></img>
                     </div>
                 </div>
             </section>
@@ -37,28 +38,28 @@ function Careers(){
                     <h2>How we keep Top Talent</h2>
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={HeartBeat} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={HeartBeat} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={PiggyBank} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={PiggyBank} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>401[k] with Company watch</b></p>
                     </div>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={Slippers} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={Slippers} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={Education} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={Education} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={Umbrella} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={Umbrella} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
-                    <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
-                        <img src={Building} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                    <div className='m-1 mx-3 p-2' style={{ width: '150px', height: '180px' }}>
+                        <img src={Building} alt='show me' style={{ width: '100px', height: '100px' }}></img>
                         <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                 </div>
@@ -66,6 +67,7 @@ function Careers(){
                     <p>Benefits are offered to eligible associates, subject to change and may differ by position and location</p>
                 </div>
             </section>
+            {/* Sales and Marketing */}
             <section className='p-3'>
                 <div className='mx-3'>
                     <h2 className='text-success'>Sales & Marketing</h2>
@@ -75,6 +77,20 @@ function Careers(){
                 </div>
                 <div className='mx-5'>
                     <button className='btn border border-success'>I'm Interested</button>
+                </div>
+            </section>
+
+            <section className='bg-light m-1 p-2'>
+                <div className='d-flex align-items-center justify-content-center'>
+                    <div className='m-1'>
+                        <img src={StudentIntern} alt='show me' style={{width: '350px', height: '350px'}}></img>
+                    </div>
+                    <div className='w-75 m-3 p-3'>
+                        <h1 className='text-dark'>Student <span className='text-success'>Internships</span></h1>
+                        <p className='lead '>Get paid to learn All aspects of Organic farming in detail at the internship on Agrivive.</p>
+                        <button className='btn btn-success mb-2' type='submit'>I'm Interested</button>
+                    </div>
+
                 </div>
             </section>
         </section>
