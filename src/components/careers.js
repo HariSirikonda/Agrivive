@@ -11,7 +11,7 @@ import StudentIntern from './images/studentIntern.jpg';
 
 function Careers() {
     return (
-        <section className="Careers-page p-3 container-fluid">
+        <section className="container-fluid">
             {/* Intro Section */}
             <section className="p-3">
                 <div className="d-flex align-items-center justify-content-center">
@@ -79,7 +79,7 @@ function Careers() {
                     <button className='btn border border-success'>I'm Interested</button>
                 </div>
             </section>
-
+            {/* Student INternship */}
             <section className='bg-light m-1 p-2'>
                 <div className='d-flex align-items-center justify-content-center'>
                     <div className='m-1'>
@@ -90,8 +90,12 @@ function Careers() {
                         <p className='lead '>Get paid to learn All aspects of Organic farming in detail at the internship on Agrivive.</p>
                         <button className='btn btn-success mb-2' type='submit'>I'm Interested</button>
                     </div>
-
                 </div>
+            </section>
+            {/* Footer */}
+            <section className='container-fluid d-flex align-items-center justify-content-center mb-0 bg-success text-white p-2'>
+                    <p className='w-75 mt-3'>Interested, but not ready to apply? Join our talent network to recieve updates on latest job oppurtunities and company news.</p>
+                    <button className='btn border w-25 text-white m-2' type='submit'>Join Our Talent Network</button>
             </section>
         </section>
     );
