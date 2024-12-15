@@ -10,7 +10,7 @@ import Umbrella from './images/umbrella.png';
 
 function Careers(){
     return(
-        <section className="Careers-page">
+        <section className="Careers-page p-3">
             {/* Intro Section */}
             <section className="p-3">
                 <div className="d-flex align-items-center justify-content-center">
@@ -32,38 +32,49 @@ function Careers(){
                 </div>
             </section>
             {/* Top talentn Section */}
-            <section className='bg-light broder align-items-center justify-content-center'>
+            <section className='bg-light broder align-items-center justify-content-center p-3'>
                 <div className='text-center p-2 m-2'>
-                    <h1>How we keep Top Talent</h1>
+                    <h2>How we keep Top Talent</h2>
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={HeartBeat} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>Medical and Health Test</b></p>
+                        <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={PiggyBank} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>401[k] with Company watch</b></p>
+                        <p className='text-success m-2'><b>401[k] with Company watch</b></p>
                     </div>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={Slippers} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>Medical and Health Test</b></p>
+                        <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={Education} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>Medical and Health Test</b></p>
+                        <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={Umbrella} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>Medical and Health Test</b></p>
+                        <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                     <div className='m-1 mx-3 p-2' style={{width: '150px', height: '180px'}}>
                         <img src={Building} alt='show me' style={{width: '100px' , height: '100px'}}></img>
-                        <p className='text-success'><b>Medical and Health Test</b></p>
+                        <p className='text-success m-2'><b>Medical and Health Test</b></p>
                     </div>
                 </div>
                 <div className='m-2 p-2'>
                     <p>Benefits are offered to eligible associates, subject to change and may differ by position and location</p>
+                </div>
+            </section>
+            <section className='p-3'>
+                <div className='mx-3'>
+                    <h2 className='text-success'>Sales & Marketing</h2>
+                </div>
+                <div className='mx-5'>
+                    <p>Market and sell your Beautiful crop under the dealership of Agrivive to get the most optimized returns among the farmers at the live market. Making the customers achieve the fullest Potential for the crops they harvest with Agrivive.</p>
+                </div>
+                <div className='mx-5'>
+                    <button className='btn border border-success'>I'm Interested</button>
                 </div>
             </section>
         </section>
