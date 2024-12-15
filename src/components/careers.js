@@ -34,7 +34,35 @@ function Careers(){
                 <div className='text-center p-2 m-2'>
                     <h1>How we keep Top Talent</h1>
                 </div>
-
+                <div className='d-flex align-items-center justify-content-center'>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={HeartBeat} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>Medical and Health Test</b></p>
+                    </div>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={PiggyBank} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>401[k] with Company watch</b></p>
+                    </div>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={Slippers} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>Medical and Health Test</b></p>
+                    </div>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={Education} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>Medical and Health Test</b></p>
+                    </div>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={Umbrella} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>Medical and Health Test</b></p>
+                    </div>
+                    <div className='m-1 mx-3 p-2 border' style={{width: '150px', height: '180px'}}>
+                        <img src={Building} alt='show me' style={{width: '100px' , height: '100px'}}></img>
+                        <p className='text-success'><b>Medical and Health Test</b></p>
+                    </div>
+                </div>
+                <div className='m-2 p-2'>
+                    <p>Benefits are offered to eligible associates, subject to change and may differ by position and location</p>
+                </div>
             </section>
         </section>
     );
