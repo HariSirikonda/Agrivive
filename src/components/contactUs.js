@@ -9,7 +9,7 @@ function ContactUs() {
         <>
             <div className="container justify-content-center">
                 <div className="m-2 p-2">
-                    <h1 className="text-success">Contact Us</h1>
+                    <h1 className="text-success lead display-4">Contact Us</h1>
                 </div>
                 <hr/>
                 <div className="m-2">

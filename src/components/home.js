@@ -27,6 +27,7 @@ import RiceCrops from './images/ricecrops.jpg';
 import DryLands from './images/drylands.jpg';
 import { useState } from 'react';
 import IntroImage from './introImage';
+import ContactUs from './contactUs';
 
 function Home({LoginClicked}) {
     const [isLogin, setIsLogin] = useState(false);
