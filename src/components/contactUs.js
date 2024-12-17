@@ -1,4 +1,6 @@
 import Navbar from "./navbar";
+import Chat from './images/chat.png';
+import PhoneCall from './images/phone-call.png';
 
 function ContactUs() {
     return (
