@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 
-function Contacts() {
+function ContactUs() {
     return (
         <>
             <div className="container justify-content-center">
@@ -10,4 +10,4 @@ function Contacts() {
     );
 }
 
-export default Contacts;
+export default ContactUs;
