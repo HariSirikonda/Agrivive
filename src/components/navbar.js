@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light d-flex align-items-center justify-content-center" style={{backgroundColor: 'rgb(199, 238, 194)'}}>
+    <nav className="navbar navbar-expand-lg navbar-light d-flex align-items-center justify-content-center" style={{backgroundColor: 'rgb(238, 255, 237)'}}>
       <div className="container-fluid w-75">
         <Link className="navbar-brand" to="/"><b>Agrivive</b></Link> {/* Brand navigation */}
         <button

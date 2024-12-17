@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             <section className='container-fluid bg-success text-light'>
-                <div className='container-fluid d-flex align-items-center justify-content-center border-bottom m-2 p-2'>
+                <div className='container-fluid d-flex align-items-center justify-content-center border-bottom mb-2 p-2'>
                     <div className='w-25 m-3 p-3 border-end border-3'>
                         <h2 className='text-light'>A Member of Agrivive Family Provides you</h2>
                     </div>
