@@ -53,7 +53,7 @@ function Home({LoginClicked}) {
                             <p className='lead text-success'><b>100%</b> satisfied <b>Yeild Returns</b></p>
                             <button className='btn btn-success m-2' type='submit' onClick={handleRegisterClick}>Register</button>
                             <button className='btn btn-light m-2 border' type='submit' onClick={handleLoginClick}>Login</button>
-                            <div className='newsletter d-flex m-3 p-3 align-items-center justify-content-center rounded' style={{backgroundColor: 'rgb(238, 255, 237)'}} >
+                            <div className='newsletter d-flex m-3 p-3 align-items-center justify-content-center bg-light rounded'>
                                 <h4 className='w-50'>Subscribe for our news letter</h4>
                                 <input className='form-control m-2 w-50' placeholder='Enter your Email Id' id='Emailinput' type='email'></input>
                                 <button className='btn btn-success m-2 w-25' type='submit' >Submit</button>
@@ -66,7 +66,7 @@ function Home({LoginClicked}) {
                 </div>
             </section>
             {/* Services section */}
-            <section className='container-fluid p-5' style={{backgroundColor: 'rgb(238, 255, 237)'}}>
+            <section className='container-fluid p-5 bg-light' style={{backgroundColor: 'rgb(238, 255, 237)'}}>
                 <h1 className='text-success'>Our Services</h1>
                 <p>Agrivive is full of services that a former as well as an Agricultural land owner needs. You just need to join us for all the services we offer. All in one service within one place. Agrivive the life of Land</p>
                 <div className='d-flex mx-5 mb-3'>
@@ -139,7 +139,7 @@ function Home({LoginClicked}) {
                 </div>
             </section>
             {/* Our Partners Section */}
-            <section className='container-fluid p-5' style={{backgroundColor: 'rgb(238, 255, 237)'}}>
+            <section className='bg-light container-fluid p-5'>
                 <h1>Our partners</h1>
                 <p>We partner with industry leading organizations with the common goal of providing exceptional service to our customers</p>
                 <div className='d-block'>
